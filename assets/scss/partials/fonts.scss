@@ -1,0 +1,25 @@
+// Fonts for The Wave site. 
+
+/**
+ * IvyMode-regular  (Localhost)
+ */
+ @font-face {
+    font-family: 'IvyMode';
+    font-style: normal;
+    font-weight: 400;
+    src: url('http://localhost/wa/wp-content/themes/thewave/assets/fonts/IvyMode-Regular.woff2') format('woff2'),
+         url('http://localhost/wa/wp-content/themes/thewave/assets/fonts/IvyMode-Regular.woff') format('woff');
+    font-display: optional;
+}
+
+/**
+ * IvyMode-regular
+ */
+//  @font-face {
+//     font-family: 'IvyMode';
+//     font-style: normal;
+//     font-weight: 400;
+//     src: url('/wp-content/themes/thewave/assets/fonts/IvyMode-Regular.woff2') format('woff2'),
+//          url('/wp-content/themes/thewave/assets/fonts/IvyMode-Regular.woff') format('woff');
+//     font-display: optional;
+// }

@@ -1,0 +1,549 @@
+
+
+/* Button
+--------------------------------------------- */
+
+$default: nth( nth( $brand_colors, 1 ), 1 ); // first color in $brand_colors array
+
+.wp-block-button__link {
+	border: 2px solid brand-color( $default );
+	border-radius: 0;
+    font-family: $ivymode, $sans-serif;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 32px;
+	padding: 16px 32px;
+	text-decoration: none;
+
+	&:not(.has-text-color) {
+		color: white;
+
+		&:hover {
+			color: white;
+		}
+	}
+
+	&:not(.has-background) {
+		background-color: brand-color( $default );
+
+		&:hover,
+		&:focus {
+            border: 2px solid brand-color( $default, 'darken' );
+			background-color: brand-color( $default, 'darken' );
+		}
+	}
+
+    .white & {
+        background-color: $white;
+        border-color: $white;
+        color: brand-color( 'green' );
+    }
+
+    .is-style-outline > &:not(.has-text-color), // front-end
+    &.is-style-outline {
+        border: 2px solid brand-color( $default );
+        color: brand-color( $default );
+		background-color: transparent;
+
+        &:hover,
+        &:focus {
+            border: 2px solid brand-color( $default, 'darken' );
+			background-color: brand-color( $default, 'darken' );
+            color: $white;
+        }
+    }
+    
+    // > .wp-block-button__link:not(.has-text-color), .wp-block-button__link.is-style-outline:not(.has-text-color)
+
+	@each $name, $color in $brand_colors {
+
+		&.has-#{$name}-color:hover,
+		&.has-#{$name}-color:focus {
+			color: $color;
+		}
+
+		&.has-#{$name}-background-color:hover,
+		&.has-#{$name}-background-color:focus {
+			background-color: brand-color( $name, 'darken' );
+		}
+	}
+
+}
+
+/* Blockquote
+--------------------------------------------- */
+
+blockquote.wp-block-quote {
+    position: relative;
+    padding: 2% 0 0 2%;
+
+    &::before,
+    &::after {
+        @include block-cover();
+        top: -45px;
+        left: -2%;
+        background: transparent url(../icons/utility/quote.svg) no-repeat top left;
+        background-size: 120px;
+        text-align: left;
+        opacity: .085;
+    }
+
+    &::after {
+        transform: rotate(180deg);
+        top: 0;
+        bottom: -45px;
+        left: 0;
+        right: -2%;
+    }
+
+	p {
+		color: $base-color;
+		font-size: 16px;
+		font-style: italic;
+		font-weight: 600;
+	}
+
+	cite {
+		color: $base-color;
+		display: block;
+		font-size: 85%;
+		font-weight: 700;
+		margin-top: 12px;
+		opacity: .5;
+		text-transform: uppercase;
+	}
+
+    p:last-of-type {
+        margin-bottom: 0;
+    }
+
+    &.is-style-large {
+        padding: 4% 0 0 4%;
+
+        p {
+            color: $base-color;
+            @include font-sizes(18px, 20px 22px);
+        }
+
+        &::before {
+            left: -3%;
+            background-size: 155px;
+        }
+
+        &::after {
+            content: none;
+        }
+    }
+
+}
+
+.wp-block-pullquote {
+    text-align: left;
+    padding: 0;
+    margin: $block-margin 0;
+
+    blockquote {
+        margin: 0;
+        padding: 4% 8%; 
+        background-color: brand-color('grey');
+        border-left: 3px solid brand-color('medium-green');
+
+        p{            
+            color: $base-color;
+            @include font-sizes(18px, 19px, 20px);
+            font-style: italic;
+        }
+    }  
+}
+
+// .wp-block-pullquote {
+//     position: relative;
+//     text-align: left;
+//     padding: 40px 0 40px 17%;
+
+//     blockquote {
+//         margin: 15px 0 15px 0;
+
+//         &::before {
+//             @include block-cover();
+//             top: 65px;
+//             height: 2px;
+//             width: 14%;
+//             background-color: brand-color( 'dark-green');
+//         }
+
+//         p{            
+//             color: $base-color;
+//             @include font-sizes(18px, 20px, 22px);
+//             font-style: italic;
+//         }
+//     }  
+// }
+
+/* Separator
+--------------------------------------------- */
+
+.wp-block-separator,
+hr {
+	background: transparent;
+	border: none;
+	width: 100%;
+	height: 32px;
+	position: relative;
+
+	&::before {
+		background: $border-color;
+		content: '';
+		display: block;
+		width: 100%;
+		height: 1px;
+		position: absolute;
+		top: 50%;
+		margin-top: -.5px;
+	}
+}
+
+/* Image and Gallery
+--------------------------------------------- */
+
+img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+	// border-radius: $border-radius;
+
+	&.alignleft {
+		float: left;
+		margin: 0 $block-margin $block-margin 0;
+	}
+
+	&.alignright {
+		float: right;
+		margin: 0 0 $block-margin $block-margin;
+	}
+
+	&.aligncenter {
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+}
+
+.wp-block-image figcaption {
+	color: $grey_7;
+	text-align: left;
+	font-size: 14px;
+	font-style: normal;
+}
+
+.site-container .blocks-gallery-grid,
+.site-container .wp-block-gallery,
+.site-container .wp-block-social-links {  // still don't have a place for social icons.
+  padding-left: 0;
+}
+
+.wp-block-gallery.no-margin .blocks-gallery-item {
+    margin: 0 !important;
+}
+
+/* Tables
+--------------------------------------------- */
+
+.wp-block-table  {
+
+    border-collapse: collapse;
+    width: 100%;
+
+	td, th {
+		padding: .5em;
+	    border: 1px solid;
+	}
+}
+
+/* Color Options
+--------------------------------------------- */
+
+@each $name, $color in $brand_colors {
+
+	.has-#{$name}-color {
+		color: $color;
+	}
+
+	.has-#{$name}-background-color {
+		background-color: $color;
+	}
+}
+
+.site-container {
+	p.has-background {
+		padding: $base-margin $margin_2x;
+
+		&.box-shadow {
+			box-shadow: 1px 3px 15px rgba(0, 0, 0, .4);
+		}
+	}
+}
+
+/* Columns
+--------------------------------------------- */
+
+// One column align to right with a left white border
+@include media('>=782px') {
+
+    .wp-block-columns.right-column-border {
+        justify-content: flex-end;
+
+        .wp-block-column{
+            position: relative;
+        
+            &:last-child::before {
+                content: "";
+                position: absolute;
+                height: 100%;
+                width: 2px;
+                background-color: $white;
+                top: 0;
+                bottom: 0;
+                left: -20px;
+            }
+        }
+
+        &.dark-grey {
+
+            .wp-block-column:last-child::before {
+                background-color: brand-color( 'dark-grey');
+            }
+        }
+    }
+
+}
+
+@include media('<782px') {
+
+    .reverse-columns {
+        flex-direction: column-reverse;
+
+        .wp-block-column:nth-child(2n) {
+            margin-bottom: $block-margin; // Give some space when renders in column
+        }
+    }
+
+    .wp-block-columns {
+        .wp-block-column:nth-child(2n) {
+            margin-left: 0;
+        }
+    }
+}
+
+/* Group
+--------------------------------------------- */
+
+.wp-block-group {
+
+	.wp-block-group__inner-container {
+		max-width: $content_width; // limit container width
+		margin: 0 auto;
+		@include clearfix;
+
+		& > *:last-child {
+			margin-bottom: 0;
+		}
+	}
+
+	&.alignwide,
+	&.alignfull {
+
+		.wp-block-group__inner-container {
+		max-width: $grid-width;  // limit container width
+	}
+	}
+
+	// Dark background
+	&.has-background:not(.has-grey-background-color):not(.has-white-background-color) {
+		color: $white;
+
+		h1, h2, h3, h4, h5, h6, p {
+			color: $white;
+		}
+	}
+
+	&.stretch {
+		height: 100%;
+	}
+
+	&.bb-green-1 {
+		border-bottom: 3px solid brand-color( 'light-green');
+	}
+
+	&.bb-green-2 {
+		border-bottom: 3px solid brand-color( 'medium-green');
+	}
+
+	&.bb-green-3 {
+		border-bottom: 3px solid brand-color( 'green');
+	}
+}
+
+// Overwriting the containers paddings in alignwide and align full for Group Block 
+.full-width-content,
+.content-width {
+
+	.entry-content,
+	.block-area {
+
+		.wp-block-group,
+		.wp-block-group.alignwide,
+		.wp-block-group.alignfull {
+			padding: $wrap_edge; // to make it match to the site-inner padding. layout.scss:41
+		}
+	}
+}
+
+/* Cover
+--------------------------------------------- */
+
+.entry-content > *,
+.block-area > * {
+
+	.full-width-content &,
+	.content-width & {
+
+		&.wp-block-cover.alignwide,
+		&.wp-block-cover.alignfull {
+			padding: 80px $wrap_edge; // to make it match to the site-inner padding. layout.scss:41
+            margin-bottom: $margin_4x;
+
+            &.no-mb {
+                margin-bottom: 0;
+            }
+
+            &.no-margin {
+                margin-top: 0;
+                margin-bottom: 0;
+            }
+		}
+	}
+}
+
+/** The Wave Block Decorations
+--------------------------------------------- */
+.entry-content,
+.block-area {
+
+    .wp-block-group {
+        position: relative;
+
+        &.flowers::before {
+            content: "";
+            position: absolute;
+            background: url("../../images/flowers-gray.png") no-repeat 50% 100%;
+            background-size: contain;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 50%;
+            z-index: 2;
+        }
+    }
+
+    .wp-block-cover {
+        position: relative;
+
+        &.flowers-big {
+
+            .wp-block-cover__inner-container {
+                z-index: 2;
+            }
+
+            &::after {
+                content: "";
+                position: absolute;
+                background: url("../../images/green-header-flowers-bubbles.png") no-repeat 40% 100%;
+                background-size: cover;
+                right: 0;
+                bottom: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                z-index: 1;
+                opacity: .8 !important;
+            }
+        }
+
+        &.green-dots {
+
+            .wp-block-cover__inner-container {
+                z-index: 2;
+            }
+
+            &::after {
+                content: "";
+                position: absolute;
+                background: url("../../images/green-dots.png") no-repeat 40% 100%;
+                background-size: cover;
+                right: 0;
+                bottom: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                z-index: 1;
+                opacity: .8 !important;
+            }
+        }
+
+        // &.bubbles::before {
+        //     content: "";
+        //     position: absolute;
+        //     background: url("../../images/bubbles.png") no-repeat 40% 100%;
+        //     background-size: cover;
+        //     right: 0;
+        //     bottom: 0;
+        //     left: 0;
+        //     width: 100%;
+        //     height: 100%;
+        //     z-index: 9;
+        //     opacity: 1 !important;
+        // }
+    }
+}
+
+/* Media and Text (remove the padding for alignfull and alignwide)
+--------------------------------------------- */
+
+.entry-content > *,
+.block-area > * {
+
+	.full-width-content &,
+	.content-width & {
+			
+        &.wp-block-media-text.alignwide,
+        &.wp-block-media-text.alignfull {
+            padding: 0;
+            margin-top: 0;
+            margin-bottom: 0;
+
+            @include media('<600px') {
+
+                &.wp-block-media-text{
+                    margin-bottom: $margin_4x;
+                }
+            }
+        }
+
+        &.wp-block-media-text.bg-grey .wp-block-media-text__content {
+            background-color: brand-color( 'grey' );
+        }
+
+        @include media('<600px') {
+
+            &.wp-block-media-text{
+                margin-bottom: $margin_4x;
+                
+                .wp-block-media-text__content {
+                    padding-top: 8%;
+                }
+            }
+	    }
+    }
+}

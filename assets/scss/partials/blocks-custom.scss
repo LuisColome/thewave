@@ -1,0 +1,68 @@
+// Custom block styles
+
+@include media('<phablet') {
+    .no-mobile {
+        display: none;
+    }
+}
+
+.golden-text {
+
+    h2,
+    h3 {
+        margin-bottom: 0;
+        background: -webkit-linear-gradient(#61503E, #C2B799);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    h2.allura {
+        @include font-sizes(60px, 80px, 95px);
+    }
+    
+    h3.allura {
+        @include font-sizes(50px, 60px, 70px);
+    }
+}
+
+.bubbles {
+
+    &::before {
+        content: "";
+        position: absolute;
+        background: url("../../images/bubbles-pattern.png") repeat-x;
+        background-size: contain;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        // z-index: 9;
+        // opacity: .5 !important;
+    }
+}
+
+/** The Wave schedule List
+------------------------------------------------------------------- */
+
+.entry-content .wp-block-group.schedule {
+
+    @include media('>phablet','<=tablet') {
+        padding-left: 0; //play with the paddiong on the group to give some space to the list.
+    }
+
+    .list-schedule {
+        list-style: none;
+        margin: 0 auto;
+
+        @include media('<=tablet') {
+            padding-left: 0; // No padding left on mobile to give space to the list.
+        }
+
+        strong {
+            font-size: 140%;
+            margin-right: 3%;
+        }
+    }
+}
+

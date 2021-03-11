@@ -1,0 +1,44 @@
+ul, ol {
+	padding-left: 1.5rem;
+
+	li:not(.blocks-gallery-item) {
+		padding-bottom: .5rem;
+
+		&:last-child {
+			padding-bottom: 0;
+		}
+
+		ul, ol {
+			padding-top: .5rem;
+		}
+	}
+
+	&.wp-block-gallery {
+		padding-left: 0;
+
+		li {
+			padding-bottom: 0;
+		}
+	}
+}
+
+
+
+/** Custom classes
+-------------------------------------------------------- */
+
+.bb-green-1 {
+    border-bottom: 3px solid brand-color( 'light-green');
+}
+
+.bb-green-2 {
+    border-bottom: 3px solid brand-color( 'medium-green');
+}
+
+.bb-green-3 {
+    border-bottom: 3px solid brand-color( 'green');
+}
+
+.bb-green-4 {
+    border-bottom: 3px solid brand-color( 'dark-green');
+}
