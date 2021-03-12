@@ -11,7 +11,7 @@
         grid-template-columns: 1fr;
         gap: $margin_2x $grid-gap;
 
-        @include media(">=phablet") {
+        @include media(">=small") {
             grid-template-columns: 1fr 1fr;
             justify-items: stretch;
         }

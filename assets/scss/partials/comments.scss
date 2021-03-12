@@ -29,7 +29,7 @@
   list-style-type: disc;
 }
 
-@include media('>phablet', '<=medium') {
+@include media('>small', '<=medium') {
     .comment-respond input[type="email"],
     .comment-respond input[type="text"],
     .comment-respond input[type="url"] {

@@ -1,6 +1,6 @@
 // Custom block styles
 
-@include media('<phablet') {
+@include media('<small') {
     .no-mobile {
         display: none;
     }
@@ -47,7 +47,7 @@
 
 .entry-content .wp-block-group.schedule {
 
-    @include media('>phablet','<=tablet') {
+    @include media('>small','<=tablet') {
         padding-left: 0; //play with the paddiong on the group to give some space to the list.
     }
 
