@@ -47,6 +47,26 @@ li.no-style {
   list-style-type: none;
 }
 
+ul.check-list {
+    list-style: none;
+
+    li {
+        position: relative;
+        
+        &::before{
+            content: "";
+            position: absolute;
+            top: 2px;
+            left: -24px;
+            display: inline-block;
+            height: 18px;
+            width: 18px;
+            background-image: url(../icons/utility/circle-checked.svg);
+            background-size: cover;
+        }
+    }
+}
+
 hr {
   border: 0;
   border-collapse: collapse;
@@ -106,7 +126,10 @@ h6 {
   font-family: $ivymode, $sans-serif;
   font-weight: 700;
   line-height: 1.2;
-  margin: 0 0 20px;
+
+  .entry-content & { // overwrite the default.
+    margin-top: $margin_2x;
+  }
 
   &.allura {
     font-family: $allura, $sans-serif;

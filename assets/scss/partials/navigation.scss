@@ -22,7 +22,7 @@
     a {
       color: brand-color('dark-green');
       display: inline-block;
-      font-family: $ivymode;
+      font-family: $ivymode, $sans-serif;
       font-size: 18px;
       font-weight: 400;
       outline-offset: -1px;
@@ -318,7 +318,7 @@
             font-weight: 700;
         }
 
-    & > .menu-highlight > a {
+    & > .highlight > a {
         background-color: brand-color('green');
         color: $white;
         font-weight: 600;

@@ -123,6 +123,24 @@ li.no-style {
   list-style-type: none;
 }
 
+ul.check-list {
+  list-style: none;
+}
+ul.check-list li {
+  position: relative;
+}
+ul.check-list li::before {
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: -24px;
+  display: inline-block;
+  height: 18px;
+  width: 18px;
+  background-image: url(../icons/utility/circle-checked.svg);
+  background-size: cover;
+}
+
 hr {
   border: 0;
   border-collapse: collapse;
@@ -178,7 +196,14 @@ h6 {
   font-family: "IvyMode", "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   font-weight: 700;
   line-height: 1.2;
-  margin: 0 0 20px;
+}
+.entry-content h1,
+.entry-content h2,
+.entry-content h3,
+.entry-content h4,
+.entry-content h5,
+.entry-content h6 {
+  margin-top: 2.2rem;
 }
 h1.allura,
 h2.allura,
@@ -448,6 +473,7 @@ blockquote.wp-block-quote::before, blockquote.wp-block-quote::after {
   width: 100%;
   height: 100%;
   z-index: 1;
+  height: 140px;
   top: -45px;
   left: -2%;
   background: transparent url(../icons/utility/quote.svg) no-repeat top left;

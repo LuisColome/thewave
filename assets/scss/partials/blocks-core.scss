@@ -84,6 +84,7 @@ blockquote.wp-block-quote {
     &::before,
     &::after {
         @include block-cover();
+        height: 140px;
         top: -45px;
         left: -2%;
         background: transparent url(../icons/utility/quote.svg) no-repeat top left;
