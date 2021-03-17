@@ -464,7 +464,7 @@ blockquote.wp-block-quote {
   position: relative;
   padding: 2% 0 0 2%;
 }
-blockquote.wp-block-quote::before, blockquote.wp-block-quote::after {
+blockquote.wp-block-quote::before {
   content: "";
   display: block;
   position: absolute;
@@ -482,11 +482,18 @@ blockquote.wp-block-quote::before, blockquote.wp-block-quote::after {
   opacity: 0.085;
 }
 blockquote.wp-block-quote::after {
-  transform: rotate(180deg);
-  top: 0;
+  content: "";
+  display: block;
+  position: absolute;
+  width: 140px;
+  height: 140px;
   bottom: -45px;
-  left: 0;
   right: -2%;
+  background: transparent url(../icons/utility/quote.svg) no-repeat top left;
+  background-size: 120px;
+  transform: rotate(180deg);
+  text-align: right;
+  opacity: 0.085;
 }
 blockquote.wp-block-quote p {
   color: #252525;
