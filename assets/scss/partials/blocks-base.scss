@@ -151,7 +151,7 @@ h6 {
 }
 
 h1 {
-  @include font-sizes(34px, 48px, 42px);
+  @include font-sizes(34px, 48px, 52px);
 
   &.allura {
     @include font-sizes(65px, 85px, 105px);
