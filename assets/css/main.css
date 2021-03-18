@@ -1033,6 +1033,21 @@ img.aligncenter {
   margin-top: 0;
   margin-bottom: 0;
 }
+.full-width-content .entry-content > *.wp-block-cover.has-background-dim .wp-block-cover__inner-container a, .content-width .entry-content > *.wp-block-cover.has-background-dim .wp-block-cover__inner-container a,
+.full-width-content .block-area > *.wp-block-cover.has-background-dim .wp-block-cover__inner-container a,
+.content-width .block-area > *.wp-block-cover.has-background-dim .wp-block-cover__inner-container a {
+  color: #ffffff;
+  -webkit-text-decoration-color: #ffffff;
+          text-decoration-color: #ffffff;
+}
+.full-width-content .entry-content > *.wp-block-cover.has-background-dim .wp-block-cover__inner-container a:hover, .full-width-content .entry-content > *.wp-block-cover.has-background-dim .wp-block-cover__inner-container a:focus, .content-width .entry-content > *.wp-block-cover.has-background-dim .wp-block-cover__inner-container a:hover, .content-width .entry-content > *.wp-block-cover.has-background-dim .wp-block-cover__inner-container a:focus,
+.full-width-content .block-area > *.wp-block-cover.has-background-dim .wp-block-cover__inner-container a:hover,
+.full-width-content .block-area > *.wp-block-cover.has-background-dim .wp-block-cover__inner-container a:focus,
+.content-width .block-area > *.wp-block-cover.has-background-dim .wp-block-cover__inner-container a:hover,
+.content-width .block-area > *.wp-block-cover.has-background-dim .wp-block-cover__inner-container a:focus {
+  color: #bdbdbd;
+  text-decoration: none;
+}
 
 /** The Wave Block Decorations
 --------------------------------------------- */

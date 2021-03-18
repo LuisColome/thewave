@@ -431,6 +431,17 @@ img {
                 margin-bottom: 0;
             }
 		}
+
+        &.wp-block-cover.has-background-dim .wp-block-cover__inner-container a {
+            color: $white;
+            text-decoration-color: $white;
+
+            &:hover,
+            &:focus {
+                color: $grey-5;
+                text-decoration: none;
+            }
+        }
 	}
 }
 
