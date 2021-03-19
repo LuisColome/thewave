@@ -346,24 +346,6 @@ ul.no-style {
   list-style-type: none;
 }
 
-ul.check-list {
-  list-style: none;
-}
-ul.check-list li {
-  position: relative;
-}
-ul.check-list li::before {
-  content: "";
-  position: absolute;
-  top: 2px;
-  left: -24px;
-  display: inline-block;
-  height: 18px;
-  width: 18px;
-  background-image: url(../icons/utility/circle-checked.svg);
-  background-size: cover;
-}
-
 hr {
   border: 0;
   border-collapse: collapse;
@@ -1034,21 +1016,6 @@ img.aligncenter {
   margin-top: 0;
   margin-bottom: 0;
 }
-.full-width-content .entry-content > *.wp-block-cover.has-background-dim .wp-block-cover__inner-container a, .content-width .entry-content > *.wp-block-cover.has-background-dim .wp-block-cover__inner-container a,
-.full-width-content .block-area > *.wp-block-cover.has-background-dim .wp-block-cover__inner-container a,
-.content-width .block-area > *.wp-block-cover.has-background-dim .wp-block-cover__inner-container a {
-  color: #ffffff;
-  -webkit-text-decoration-color: #ffffff;
-          text-decoration-color: #ffffff;
-}
-.full-width-content .entry-content > *.wp-block-cover.has-background-dim .wp-block-cover__inner-container a:hover, .full-width-content .entry-content > *.wp-block-cover.has-background-dim .wp-block-cover__inner-container a:focus, .content-width .entry-content > *.wp-block-cover.has-background-dim .wp-block-cover__inner-container a:hover, .content-width .entry-content > *.wp-block-cover.has-background-dim .wp-block-cover__inner-container a:focus,
-.full-width-content .block-area > *.wp-block-cover.has-background-dim .wp-block-cover__inner-container a:hover,
-.full-width-content .block-area > *.wp-block-cover.has-background-dim .wp-block-cover__inner-container a:focus,
-.content-width .block-area > *.wp-block-cover.has-background-dim .wp-block-cover__inner-container a:hover,
-.content-width .block-area > *.wp-block-cover.has-background-dim .wp-block-cover__inner-container a:focus {
-  color: #bdbdbd;
-  text-decoration: none;
-}
 
 /** The Wave Block Decorations
 --------------------------------------------- */
@@ -1347,6 +1314,35 @@ img.aligncenter {
 .gb-block-post-grid.twc-post-grid .gb-block-post-grid-text {
   padding: 20px 1.375rem;
   background-color: #f7f4f2;
+}
+
+/** Custom lists
+----------------------------------------------------------------- */
+ul.check-list {
+  list-style: none;
+}
+ul.check-list li {
+  position: relative;
+}
+ul.check-list li::before {
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: -24px;
+  display: inline-block;
+  height: 18px;
+  width: 18px;
+  background-image: url(../icons/utility/circle-checked.svg);
+  background-size: cover;
+}
+ul.white-links a {
+  color: #ffffff;
+  -webkit-text-decoration-color: #ffffff;
+          text-decoration-color: #ffffff;
+}
+ul.white-links a:hover, ul.white-links a:focus {
+  color: #bdbdbd;
+  text-decoration: none;
 }
 
 @media (max-width: 599px) {

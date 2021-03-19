@@ -25,7 +25,7 @@ textarea:focus,
 }
 
 a {
-  color: brand-color( 'green' );;
+  color: brand-color( 'green' );
   text-decoration: underline;
   text-decoration-color: $grey-7;
   @include transition;
@@ -45,26 +45,6 @@ ul {
 
 ul.no-style {
   list-style-type: none;
-}
-
-ul.check-list {
-    list-style: none;
-
-    li {
-        position: relative;
-        
-        &::before{
-            content: "";
-            position: absolute;
-            top: 2px;
-            left: -24px;
-            display: inline-block;
-            height: 18px;
-            width: 18px;
-            background-image: url(../icons/utility/circle-checked.svg);
-            background-size: cover;
-        }
-    }
 }
 
 hr {

@@ -1,5 +1,47 @@
 // Custom block styles
 
+/** Custom lists
+----------------------------------------------------------------- */
+
+ul {
+    
+    &.check-list {
+        list-style: none;
+
+        li {
+            position: relative;
+            
+            &::before{
+                content: "";
+                position: absolute;
+                top: 2px;
+                left: -24px;
+                display: inline-block;
+                height: 18px;
+                width: 18px;
+                background-image: url(../icons/utility/circle-checked.svg);
+                background-size: cover;
+            }
+        }
+    }
+
+    &.white-links {
+        
+        a {
+            color: $white;
+            text-decoration-color: $white;
+        
+            &:hover,
+            &:focus {
+                color: $grey-5;
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+
+
 @include media('<small') {
     .no-mobile {
         display: none;
