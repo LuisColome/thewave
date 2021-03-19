@@ -126,8 +126,9 @@ h6 {
   font-family: $ivymode, $sans-serif;
   font-weight: 700;
   line-height: 1.2;
+  margin: 10px 0 $block-margin;
 
-  .entry-content & { // overwrite the default.
+  .entry-content > & { // overwrite the default.
     margin-top: $margin_4x;
   }
 
