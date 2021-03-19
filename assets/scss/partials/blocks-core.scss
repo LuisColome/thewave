@@ -497,8 +497,8 @@ img {
 /* Media and Text (remove the padding for alignfull and alignwide)
 --------------------------------------------- */
 
-.entry-content > *,
-.block-area > * {
+.entry-content *,
+.block-area * {
 
 	.full-width-content &,
 	.content-width & {

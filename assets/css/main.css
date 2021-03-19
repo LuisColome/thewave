@@ -1082,28 +1082,28 @@ img.aligncenter {
 
 /* Media and Text (remove the padding for alignfull and alignwide)
 --------------------------------------------- */
-.full-width-content .entry-content > *.wp-block-media-text.alignwide, .full-width-content .entry-content > *.wp-block-media-text.alignfull, .content-width .entry-content > *.wp-block-media-text.alignwide, .content-width .entry-content > *.wp-block-media-text.alignfull,
-.full-width-content .block-area > *.wp-block-media-text.alignwide,
-.full-width-content .block-area > *.wp-block-media-text.alignfull,
-.content-width .block-area > *.wp-block-media-text.alignwide,
-.content-width .block-area > *.wp-block-media-text.alignfull {
+.full-width-content .entry-content *.wp-block-media-text.alignwide, .full-width-content .entry-content *.wp-block-media-text.alignfull, .content-width .entry-content *.wp-block-media-text.alignwide, .content-width .entry-content *.wp-block-media-text.alignfull,
+.full-width-content .block-area *.wp-block-media-text.alignwide,
+.full-width-content .block-area *.wp-block-media-text.alignfull,
+.content-width .block-area *.wp-block-media-text.alignwide,
+.content-width .block-area *.wp-block-media-text.alignfull {
   padding: 0;
   margin-top: 0;
   margin-bottom: 0;
 }
 @media (max-width: 599px) {
-  .full-width-content .entry-content > *.wp-block-media-text.alignwide, .full-width-content .entry-content > *.wp-block-media-text.alignfull, .content-width .entry-content > *.wp-block-media-text.alignwide, .content-width .entry-content > *.wp-block-media-text.alignfull,
-.full-width-content .block-area > *.wp-block-media-text.alignwide,
-.full-width-content .block-area > *.wp-block-media-text.alignfull,
-.content-width .block-area > *.wp-block-media-text.alignwide,
-.content-width .block-area > *.wp-block-media-text.alignfull {
+  .full-width-content .entry-content *.wp-block-media-text.alignwide, .full-width-content .entry-content *.wp-block-media-text.alignfull, .content-width .entry-content *.wp-block-media-text.alignwide, .content-width .entry-content *.wp-block-media-text.alignfull,
+.full-width-content .block-area *.wp-block-media-text.alignwide,
+.full-width-content .block-area *.wp-block-media-text.alignfull,
+.content-width .block-area *.wp-block-media-text.alignwide,
+.content-width .block-area *.wp-block-media-text.alignfull {
     margin-bottom: 4.4rem;
   }
-  .full-width-content .entry-content > *.wp-block-media-text.alignwide .wp-block-media-text__content, .full-width-content .entry-content > *.wp-block-media-text.alignfull .wp-block-media-text__content, .content-width .entry-content > *.wp-block-media-text.alignwide .wp-block-media-text__content, .content-width .entry-content > *.wp-block-media-text.alignfull .wp-block-media-text__content,
-.full-width-content .block-area > *.wp-block-media-text.alignwide .wp-block-media-text__content,
-.full-width-content .block-area > *.wp-block-media-text.alignfull .wp-block-media-text__content,
-.content-width .block-area > *.wp-block-media-text.alignwide .wp-block-media-text__content,
-.content-width .block-area > *.wp-block-media-text.alignfull .wp-block-media-text__content {
+  .full-width-content .entry-content *.wp-block-media-text.alignwide .wp-block-media-text__content, .full-width-content .entry-content *.wp-block-media-text.alignfull .wp-block-media-text__content, .content-width .entry-content *.wp-block-media-text.alignwide .wp-block-media-text__content, .content-width .entry-content *.wp-block-media-text.alignfull .wp-block-media-text__content,
+.full-width-content .block-area *.wp-block-media-text.alignwide .wp-block-media-text__content,
+.full-width-content .block-area *.wp-block-media-text.alignfull .wp-block-media-text__content,
+.content-width .block-area *.wp-block-media-text.alignwide .wp-block-media-text__content,
+.content-width .block-area *.wp-block-media-text.alignfull .wp-block-media-text__content {
     padding: 8%;
   }
 }
