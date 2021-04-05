@@ -41,7 +41,29 @@
  @font-face {
     font-family: 'Wotfard';
     font-style: normal;
-    font-weight: 700;
+    font-weight: 500;
+    src: url('/wp-content/themes/thewave/assets/fonts/wotfard-medium-webfont.woff2') format('woff2');
+    font-display: optional;
+}
+
+/**
+ * IvyMode-regular
+ */
+ @font-face {
+    font-family: 'Wotfard';
+    font-style: normal;
+    font-weight: 600;
     src: url('/wp-content/themes/thewave/assets/fonts/wotfard-semibold-webfont.woff2') format('woff2');
+    font-display: optional;
+}
+
+/**
+ * IvyMode-regular
+ */
+ @font-face {
+    font-family: 'Wotfard';
+    font-style: normal;
+    font-weight: 700;
+    src: url('/wp-content/themes/thewave/assets/fonts/wotfard-bold-webfont.woff2') format('woff2');
     font-display: optional;
 }

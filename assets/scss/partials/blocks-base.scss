@@ -119,6 +119,16 @@ h6 {
     margin-bottom: 40px;
   }
 
+  &.lora {
+    font-family: $lora, $sans-serif;
+    margin-bottom: 40px;
+  }
+
+  &.josefin {
+    font-family: $josefin, $sans-serif;
+    margin-bottom: 40px;
+  }
+
   a {
     color: $grey-9;
 

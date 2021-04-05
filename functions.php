@@ -58,7 +58,7 @@ add_action( 'enqueue_block_editor_assets', 'ea_gutenberg_scripts' );
 *
 */
 function lcm_theme_fonts_url() {
-	return 'https://fonts.googleapis.com/css2?family=Allura&family=Montserrat:ital,wght@0,400;0,600;1,400&display=swap';
+	return 'https://fonts.googleapis.com/css2?family=Allura&family=Josefin+Sans:wght@600&family=Lora:ital,wght@1,600&family=Montserrat:ital,wght@0,400;0,600;1,400&display=swap';
 }
 
 function lcm_child_theme_setup() {

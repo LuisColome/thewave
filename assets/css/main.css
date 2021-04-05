@@ -257,8 +257,28 @@ template {
 @font-face {
   font-family: "Wotfard";
   font-style: normal;
-  font-weight: 700;
+  font-weight: 500;
+  src: url("/wp-content/themes/thewave/assets/fonts/wotfard-medium-webfont.woff2") format("woff2");
+  font-display: optional;
+}
+/**
+ * IvyMode-regular
+ */
+@font-face {
+  font-family: "Wotfard";
+  font-style: normal;
+  font-weight: 600;
   src: url("/wp-content/themes/thewave/assets/fonts/wotfard-semibold-webfont.woff2") format("woff2");
+  font-display: optional;
+}
+/**
+ * IvyMode-regular
+ */
+@font-face {
+  font-family: "Wotfard";
+  font-style: normal;
+  font-weight: 700;
+  src: url("/wp-content/themes/thewave/assets/fonts/wotfard-bold-webfont.woff2") format("woff2");
   font-display: optional;
 }
 /**
@@ -444,6 +464,24 @@ h4.allura,
 h5.allura,
 h6.allura {
   font-family: "Allura", "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  margin-bottom: 40px;
+}
+h1.lora,
+h2.lora,
+h3.lora,
+h4.lora,
+h5.lora,
+h6.lora {
+  font-family: "Lora", "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  margin-bottom: 40px;
+}
+h1.josefin,
+h2.josefin,
+h3.josefin,
+h4.josefin,
+h5.josefin,
+h6.josefin {
+  font-family: "Josefin Sans", "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   margin-bottom: 40px;
 }
 h1 a,
