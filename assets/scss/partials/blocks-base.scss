@@ -147,8 +147,8 @@ h1 {
   @include font-sizes(34px, 48px, 52px);
 
   &.allura,
-  &lora,
-  &josefin {
+  &.lora,
+  &.josefin {
     @include font-sizes(65px, 85px, 105px);
   }
 }
@@ -157,8 +157,8 @@ h2 {
   @include font-sizes(26px, 32px, 36px);
 
   &.allura,
-  &lora,
-  &josefin {
+  &.lora,
+  &.josefin {
     @include font-sizes(50px, 60px, 70px);
   }
 }
@@ -167,8 +167,8 @@ h3 {
   @include font-sizes(22px, 26px, 28px);
 
   &.allura,
-  &lora,
-  &josefin {
+  &.lora,
+  &.josefin {
     @include font-sizes(45px,52px, 60px);
   }
 }
