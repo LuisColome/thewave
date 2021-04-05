@@ -1,6 +1,6 @@
 @mixin base-style {
   color: $grey_9;
-  font-family: $sans-serif;
+  font-family: $wotfard, $sans-serif;
   @include font-sizes(16px, 16px);
   font-weight: 400;
   line-height: 1.55;
