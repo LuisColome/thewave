@@ -32,6 +32,7 @@ a {
   @include transition;
   &:hover {
     color: $grey-7;
+    text-decoration: none;
   }
   svg {
     @include transition;
@@ -79,20 +80,20 @@ p {
 }
 
 .has-small-font-size {
-    font-size: 13px;
+    font-size: 0.8rem;
 }
 
 .has-normal-font-size {
-    font-size: 15px;
+    font-size: 1rem;
 }
 
 .has-large-font-size {
-    font-size: 20px;
+    font-size: 1.4rem;
     line-height: 1.42;
 }
 
 .has-huge-font-size {
-    font-size: 24px;
+    font-size: 1.8rem;
     line-height: 1.42;
 }
 
@@ -109,10 +110,10 @@ h6 {
   font-family: $sans-serif;
   font-weight: 500;
   line-height: 1.2;
-  margin: 10px 0 $block-margin;
+  margin: .8em 0 1.2em;
 
   .entry-content > & { // overwrite the default.
-    margin-top: $margin_4x;
+    margin-top: 2em;
   }
 
   a {
@@ -130,11 +131,11 @@ h6 {
 }
 
 h1 {
-  @include font-sizes(38px, 52px, 58px);
+  @include font-sizes(2.1em, 2.4em, 3em);
 }
 
 h2 {
-  @include font-sizes(32px, 40px, 48px);
+  @include font-sizes(1.8em, 2em, 2.5em);
 }
 
 h3 {
