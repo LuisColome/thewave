@@ -247,16 +247,16 @@ h1 {
     font-size: 52px;
   }
 }
-h1.allura {
+h1.allura, h1lora, h1josefin {
   font-size: 65px;
 }
 @media (min-width: 768px) {
-  h1.allura {
+  h1.allura, h1lora, h1josefin {
     font-size: 85px;
   }
 }
 @media (min-width: 960px) {
-  h1.allura {
+  h1.allura, h1lora, h1josefin {
     font-size: 105px;
   }
 }
@@ -274,16 +274,16 @@ h2 {
     font-size: 36px;
   }
 }
-h2.allura {
+h2.allura, h2lora, h2josefin {
   font-size: 50px;
 }
 @media (min-width: 768px) {
-  h2.allura {
+  h2.allura, h2lora, h2josefin {
     font-size: 60px;
   }
 }
 @media (min-width: 960px) {
-  h2.allura {
+  h2.allura, h2lora, h2josefin {
     font-size: 70px;
   }
 }
@@ -301,16 +301,16 @@ h3 {
     font-size: 28px;
   }
 }
-h3.allura {
+h3.allura, h3lora, h3josefin {
   font-size: 45px;
 }
 @media (min-width: 768px) {
-  h3.allura {
+  h3.allura, h3lora, h3josefin {
     font-size: 52px;
   }
 }
 @media (min-width: 960px) {
-  h3.allura {
+  h3.allura, h3lora, h3josefin {
     font-size: 60px;
   }
 }
