@@ -1685,7 +1685,7 @@ textarea:focus:-ms-input-placeholder {
 }
 .sidebar .widget-title {
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 500;
   margin-bottom: 20px;
 }
 .sidebar .widget-title a {
@@ -2371,7 +2371,7 @@ textarea:focus:-ms-input-placeholder {
   .genesis-nav-menu > .highlight > a {
     background-color: #398086;
     color: #ffffff;
-    font-weight: 600;
+    font-weight: 500;
     margin-left: 15px;
     padding-left: 20px;
     padding-right: 20px;
