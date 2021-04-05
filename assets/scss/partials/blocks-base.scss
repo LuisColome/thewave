@@ -28,6 +28,7 @@ a {
   color: brand-color( 'green' );
   text-decoration: underline;
   text-decoration-color: $grey-7;
+  font-weight: 500;
   @include transition;
   &:hover {
     color: $grey-7;
@@ -105,28 +106,13 @@ h4,
 h5,
 h6 {
   color: $grey_9;
-  font-family: $wotfard, $ivymode, $sans-serif;
-  font-weight: 600;
+  font-family: $sans-serif;
+  font-weight: 500;
   line-height: 1.2;
   margin: 10px 0 $block-margin;
 
   .entry-content > & { // overwrite the default.
     margin-top: $margin_4x;
-  }
-
-  &.allura {
-    font-family: $allura, $sans-serif;
-    margin-bottom: 40px;
-  }
-
-  &.lora {
-    font-family: $lora, $sans-serif;
-    margin-bottom: 40px;
-  }
-
-  &.josefin {
-    font-family: $josefin, $sans-serif;
-    margin-bottom: 40px;
   }
 
   a {
@@ -146,9 +132,7 @@ h6 {
 h1 {
   @include font-sizes(34px, 48px, 52px);
 
-  &.allura,
-  &.lora,
-  &.josefin {
+  &.big {
     @include font-sizes(65px, 85px, 105px);
   }
 }
@@ -156,9 +140,7 @@ h1 {
 h2 {
   @include font-sizes(26px, 32px, 36px);
 
-  &.allura,
-  &.lora,
-  &.josefin {
+  &.big {
     @include font-sizes(50px, 60px, 70px);
   }
 }
@@ -166,9 +148,7 @@ h2 {
 h3 {
   @include font-sizes(22px, 26px, 28px);
 
-  &.allura,
-  &.lora,
-  &.josefin {
+  &.big {
     @include font-sizes(45px,52px, 60px);
   }
 }
