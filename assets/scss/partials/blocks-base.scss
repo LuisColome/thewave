@@ -130,31 +130,19 @@ h6 {
 }
 
 h1 {
-  @include font-sizes(34px, 48px, 52px);
-
-  &.big {
-    @include font-sizes(65px, 85px, 105px);
-  }
+  @include font-sizes(38px, 52px, 58px);
 }
 
 h2 {
-  @include font-sizes(26px, 32px, 36px);
-
-  &.big {
-    @include font-sizes(50px, 60px, 70px);
-  }
+  @include font-sizes(32px, 40px, 48px);
 }
 
 h3 {
-  @include font-sizes(22px, 26px, 28px);
-
-  &.big {
-    @include font-sizes(45px,52px, 60px);
-  }
+  @include font-sizes(26px, 32px, 42px);
 }
 
 h4{
-  @include font-sizes(20px, 24px, 26px);
+  @include font-sizes(22px, 24px, 26px);
 }
 
 h5,
