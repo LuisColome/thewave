@@ -114,7 +114,7 @@
     
         .gb-accordion-title {
             position: relative;
-            font-family: $ivymode, $sans-serif;
+            font-family: $sans-serif;
             @include font-sizes(18px, 20px, 20px);
             padding: 15px 45px 15px 10px;
             background-color: brand-color( 'grey' );
