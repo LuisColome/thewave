@@ -7,6 +7,8 @@ html {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   scroll-behavior: smooth;
+  
+  @include font-sizes(16px, 17px, 18px);
 }
 
 body {
@@ -88,12 +90,12 @@ p {
 }
 
 .has-large-font-size {
-    font-size: 1.4rem;
+    font-size: 1.24rem;
     line-height: 1.42;
 }
 
 .has-huge-font-size {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     line-height: 1.42;
 }
 
