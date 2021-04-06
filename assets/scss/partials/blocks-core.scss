@@ -413,86 +413,72 @@ img {
 
 /** The Wave Block Decorations
 --------------------------------------------- */
-.entry-content,
-.block-area {
+// .entry-content,
+// .block-area {
 
-    .wp-block-group {
-        position: relative;
+//     .wp-block-group {
+//         position: relative;
 
-        &.flowers::before {
-            content: "";
-            position: absolute;
-            background: url("../../images/flowers-gray.png") no-repeat 50% 100%;
-            background-size: contain;
-            right: 0;
-            bottom: 0;
-            left: 0;
-            width: 100%;
-            height: 50%;
-            z-index: 2;
-        }
-    }
+//         &.flowers::before {
+//             content: "";
+//             position: absolute;
+//             background: url("../../images/flowers-gray.png") no-repeat 50% 100%;
+//             background-size: contain;
+//             right: 0;
+//             bottom: 0;
+//             left: 0;
+//             width: 100%;
+//             height: 50%;
+//             z-index: 2;
+//         }
+//     }
 
-    .wp-block-cover {
-        position: relative;
+//     .wp-block-cover {
+//         position: relative;
 
-        &.flowers-big {
+//         &.flowers-big {
 
-            .wp-block-cover__inner-container {
-                z-index: 2;
-            }
+//             .wp-block-cover__inner-container {
+//                 z-index: 2;
+//             }
 
-            &::after {
-                content: "";
-                position: absolute;
-                background: url("../../images/green-header-flowers-bubbles.png") no-repeat 40% 100%;
-                background-size: cover;
-                right: 0;
-                bottom: 0;
-                left: 0;
-                width: 100%;
-                height: 100%;
-                z-index: 1;
-                opacity: .8 !important;
-            }
-        }
+//             &::after {
+//                 content: "";
+//                 position: absolute;
+//                 background: url("../../images/green-header-flowers-bubbles.png") no-repeat 40% 100%;
+//                 background-size: cover;
+//                 right: 0;
+//                 bottom: 0;
+//                 left: 0;
+//                 width: 100%;
+//                 height: 100%;
+//                 z-index: 1;
+//                 opacity: .8 !important;
+//             }
+//         }
 
-        &.green-dots {
+//         &.green-dots {
 
-            .wp-block-cover__inner-container {
-                z-index: 2;
-            }
+//             .wp-block-cover__inner-container {
+//                 z-index: 2;
+//             }
 
-            &::after {
-                content: "";
-                position: absolute;
-                background: url("../../images/green-dots.png") no-repeat 40% 100%;
-                background-size: cover;
-                right: 0;
-                bottom: 0;
-                left: 0;
-                width: 100%;
-                height: 100%;
-                z-index: 1;
-                opacity: .8 !important;
-            }
-        }
-
-        // &.bubbles::before {
-        //     content: "";
-        //     position: absolute;
-        //     background: url("../../images/bubbles.png") no-repeat 40% 100%;
-        //     background-size: cover;
-        //     right: 0;
-        //     bottom: 0;
-        //     left: 0;
-        //     width: 100%;
-        //     height: 100%;
-        //     z-index: 9;
-        //     opacity: 1 !important;
-        // }
-    }
-}
+//             &::after {
+//                 content: "";
+//                 position: absolute;
+//                 background: url("../../images/green-dots.png") no-repeat 40% 100%;
+//                 background-size: cover;
+//                 right: 0;
+//                 bottom: 0;
+//                 left: 0;
+//                 width: 100%;
+//                 height: 100%;
+//                 z-index: 1;
+//                 opacity: .8 !important;
+//             }
+//         }
+//     }
+// }
 
 /* Media and Text (remove the padding for alignfull and alignwide)
 --------------------------------------------- */
