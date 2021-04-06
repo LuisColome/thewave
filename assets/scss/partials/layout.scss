@@ -42,10 +42,10 @@ input[type="search"] {
   clear: both;
   max-width: $grid-width;
   margin: 0 auto;
-  padding: 60px 0 30px;
+  padding: 4rem 0;
 
   @include media("<=1400px") {
-    padding: 60px $wrap_edge 30px;
+    padding: 4rem $wrap_edge;
   }
 
   .first-block-align-full &,
