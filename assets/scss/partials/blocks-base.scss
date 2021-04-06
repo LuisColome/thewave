@@ -112,10 +112,10 @@ h6 {
   font-family: $sans-serif;
   font-weight: 500;
   line-height: 1.2;
-  margin: .8em 0 1.2em;
+  margin: .6em 0 .4em;
 
   .entry-content > & { // overwrite the default.
-    margin-top: 2em;
+    margin-top: 1em;
   }
 
   a {
