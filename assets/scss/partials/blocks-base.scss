@@ -141,10 +141,10 @@ h6 {
 
   a {
     color: $grey-9;
+    text-decoration: none;
 
     &:hover {
       color: brand-color( 'green' );
-      text-decoration: none;
     }
   }
 

@@ -276,6 +276,7 @@ h4 a,
 h5 a,
 h6 a {
   color: #414243;
+  text-decoration: none;
 }
 h1 a:hover,
 h2 a:hover,
@@ -284,7 +285,6 @@ h4 a:hover,
 h5 a:hover,
 h6 a:hover {
   color: #398086;
-  text-decoration: none;
 }
 h1:focus,
 h2:focus,
