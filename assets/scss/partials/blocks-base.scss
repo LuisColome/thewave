@@ -44,16 +44,13 @@ a {
 
     .go-link & {
         position: relative;
-        font-weight: 600;
         text-decoration: none;
         @include transition;
 
         &::after {
             content: '\279C';
-            font-weight: normal;
+            font-weight: 300;
             font-size: 90%;
-            // width: 12px;
-            // height: 6px;
             position: absolute;
             transform: translateX(4px) translateY(2px);
             @include transition;
