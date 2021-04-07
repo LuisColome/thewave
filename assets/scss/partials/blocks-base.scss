@@ -160,7 +160,7 @@ h6 {
 }
 
 h1 {
-  @include font-sizes(2.1em, 2.4em, 3em);
+  @include font-sizes(2.4em, 2.8em, 3.5em);
 }
 
 h2 {
@@ -168,16 +168,16 @@ h2 {
 }
 
 h3 {
-  @include font-sizes(26px, 32px, 42px);
+  @include font-sizes(1.7em, 2em, 2.3em);
 }
 
 h4{
-  @include font-sizes(22px, 24px, 26px);
+  @include font-sizes(1.5em, 1.8em, 2.1em);
 }
 
 h5,
 h6 {
-  @include font-sizes(18px, 22px);
+  @include font-sizes(1.1em, 1.4em);
 }
 
 h6 {
