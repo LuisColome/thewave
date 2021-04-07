@@ -56,7 +56,7 @@
   font-family: "Argesta";
   font-style: normal;
   font-weight: 400;
-  src: url("/wp-content/themes/thewave/assets/fonts/argestadisplay-regular-webfont.woff2") format("woff2");
+  src: url("/wp-content/themes/thewave/assets/fonts/argestatext-regular-webfont.woff2") format("woff2");
   font-display: optional;
 }
 /**
@@ -66,7 +66,7 @@
   font-family: "Argesta";
   font-style: italic;
   font-weight: 400;
-  src: url("/wp-content/themes/thewave/assets/fonts/argestadisplay-regularitalic-webfont.woff2") format("woff2");
+  src: url("/wp-content/themes/thewave/assets/fonts/argestatext-regularitalic-webfont.woff2") format("woff2");
   font-display: optional;
 }
 /**
@@ -1004,7 +1004,7 @@ img.aligncenter {
 }
 .gb-block-accordion details .gb-accordion-title {
   position: relative;
-  font-family: "Wotfard", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  font-family: "Argesta", Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
   font-size: 18px;
   padding: 15px 45px 15px 10px;
   background-color: #f7f4f2;
