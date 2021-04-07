@@ -47,9 +47,10 @@
     }
 
     .lcm-post__title {
-        line-height: 1;
+        line-height: 1.25;
         margin: 0 0 $base-margin 0;
         @include font-sizes(20px, 22px, 22px);
+        letter-spacing: -.4px;
         
         a {
             text-decoration: none;

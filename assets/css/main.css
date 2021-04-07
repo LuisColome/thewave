@@ -1848,9 +1848,10 @@ textarea:focus:-ms-input-placeholder {
   justify-content: space-between;
 }
 .lcm-post .lcm-post__title {
-  line-height: 1;
+  line-height: 1.25;
   margin: 0 0 1.1rem 0;
   font-size: 20px;
+  letter-spacing: -0.4px;
 }
 @media (min-width: 768px) {
   .lcm-post .lcm-post__title {
