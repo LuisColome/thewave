@@ -289,31 +289,32 @@ h6 {
 .entry-content > h6 {
   margin-top: 1em;
 }
-h1 .bigger,
-h2 .bigger,
-h3 .bigger,
-h4 .bigger,
-h5 .bigger,
-h6 .bigger {
+h1.bigger,
+h2.bigger,
+h3.bigger,
+h4.bigger,
+h5.bigger,
+h6.bigger {
   font-size: 2.4em;
+  font-style: italic;
 }
 @media (min-width: 768px) {
-  h1 .bigger,
-h2 .bigger,
-h3 .bigger,
-h4 .bigger,
-h5 .bigger,
-h6 .bigger {
+  h1.bigger,
+h2.bigger,
+h3.bigger,
+h4.bigger,
+h5.bigger,
+h6.bigger {
     font-size: 3.2em;
   }
 }
 @media (min-width: 960px) {
-  h1 .bigger,
-h2 .bigger,
-h3 .bigger,
-h4 .bigger,
-h5 .bigger,
-h6 .bigger {
+  h1.bigger,
+h2.bigger,
+h3.bigger,
+h4.bigger,
+h5.bigger,
+h6.bigger {
     font-size: 4em;
   }
 }
