@@ -49,9 +49,9 @@
     .lcm-post__title {
         line-height: 1;
         margin: 0 0 $base-margin 0;
+        @include font-sizes(20px, 22px, 22px);
         
         a {
-            @include font-sizes(20px, 22px, 22px);
             text-decoration: none;
             color: $grey_9;
             font-weight: 400;
