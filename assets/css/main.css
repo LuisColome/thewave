@@ -242,7 +242,7 @@ template {
   font-display: optional;
 }
 /**
- * IvyMode-regular
+ * Wotfard-light
  */
 @font-face {
   font-family: "Wotfard";
@@ -252,7 +252,7 @@ template {
   font-display: optional;
 }
 /**
- * IvyMode-regular
+ * Wotfard-regular
  */
 @font-face {
   font-family: "Wotfard";
@@ -262,7 +262,7 @@ template {
   font-display: optional;
 }
 /**
- * IvyMode-regular
+ * Wotfard-medium
  */
 @font-face {
   font-family: "Wotfard";
@@ -272,13 +272,33 @@ template {
   font-display: optional;
 }
 /**
- * IvyMode-regular
+ * Argesta-regular
  */
 @font-face {
-  font-family: "Wotfard";
+  font-family: "Argesta";
   font-style: normal;
-  font-weight: 700;
-  src: url("/wp-content/themes/thewave/assets/fonts/wotfard-bold-webfont.woff2") format("woff2");
+  font-weight: normal;
+  src: url("/wp-content/themes/thewave/assets/fonts/argestadisplay-regular-webfont.woff2") format("woff2");
+  font-display: optional;
+}
+/**
+ * Argesta-regular-italic
+ */
+@font-face {
+  font-family: "Argesta";
+  font-style: italic;
+  font-weight: normal;
+  src: url("/wp-content/themes/thewave/assets/fonts/argestadisplay-regularitalic-webfont.woff2") format("woff2");
+  font-display: optional;
+}
+/**
+ * Argesta-headline-italic
+ */
+@font-face {
+  font-family: "Argesta";
+  font-style: italic;
+  font-weight: 300;
+  src: url("/wp-content/themes/thewave/assets/fonts/argestaheadline-regularitalic-webfont.woff2") format("woff2");
   font-display: optional;
 }
 /**
@@ -403,11 +423,11 @@ a svg {
   font-weight: 300;
   font-size: 90%;
   position: absolute;
-  transform: translateX(4px) translateY(2px);
+  transform: translateX(4px);
   transition: all 0.15s ease-in-out;
 }
 .go-link a:hover::after {
-  transform: translateX(9px) translateY(2px);
+  transform: translateX(9px);
 }
 
 ol,
@@ -478,7 +498,7 @@ h4,
 h5,
 h6 {
   color: #414243;
-  font-family: "Wotfard", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  font-family: "Argesta", Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
   font-weight: 500;
   line-height: 1.2;
   margin: 0.6em 0 0.4em;
@@ -490,6 +510,34 @@ h6 {
 .entry-content > h5,
 .entry-content > h6 {
   margin-top: 1em;
+}
+h1 .bigger,
+h2 .bigger,
+h3 .bigger,
+h4 .bigger,
+h5 .bigger,
+h6 .bigger {
+  font-size: 2.4em;
+}
+@media (min-width: 768px) {
+  h1 .bigger,
+h2 .bigger,
+h3 .bigger,
+h4 .bigger,
+h5 .bigger,
+h6 .bigger {
+    font-size: 3.2em;
+  }
+}
+@media (min-width: 960px) {
+  h1 .bigger,
+h2 .bigger,
+h3 .bigger,
+h4 .bigger,
+h5 .bigger,
+h6 .bigger {
+    font-size: 4em;
+  }
 }
 h1 a,
 h2 a,

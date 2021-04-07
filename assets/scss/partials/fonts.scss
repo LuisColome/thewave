@@ -25,7 +25,7 @@
 }
 
 /**
- * IvyMode-regular
+ * Wotfard-light
  */
  @font-face {
     font-family: 'Wotfard';
@@ -36,7 +36,7 @@
 }
 
 /**
- * IvyMode-regular
+ * Wotfard-regular
  */
  @font-face {
     font-family: 'Wotfard';
@@ -47,7 +47,7 @@
 }
 
 /**
- * IvyMode-regular
+ * Wotfard-medium
  */
  @font-face {
     font-family: 'Wotfard';
@@ -58,12 +58,34 @@
 }
 
 /**
- * IvyMode-regular
+ * Argesta-regular
  */
  @font-face {
-    font-family: 'Wotfard';
+    font-family: 'Argesta';
     font-style: normal;
-    font-weight: 700;
-    src: url('/wp-content/themes/thewave/assets/fonts/wotfard-bold-webfont.woff2') format('woff2');
+    font-weight: normal;
+    src: url('/wp-content/themes/thewave/assets/fonts/argestadisplay-regular-webfont.woff2') format('woff2');
+    font-display: optional;
+}
+
+/**
+ * Argesta-regular-italic
+ */
+ @font-face {
+    font-family: 'Argesta';
+    font-style: italic;
+    font-weight: normal;
+    src: url('/wp-content/themes/thewave/assets/fonts/argestadisplay-regularitalic-webfont.woff2') format('woff2');
+    font-display: optional;
+}
+
+/**
+ * Argesta-headline-italic
+ */
+ @font-face {
+    font-family: 'Argesta';
+    font-style: italic;
+    font-weight: 300;
+    src: url('/wp-content/themes/thewave/assets/fonts/argestaheadline-regularitalic-webfont.woff2') format('woff2');
     font-display: optional;
 }
