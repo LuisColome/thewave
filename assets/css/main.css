@@ -277,7 +277,7 @@ template {
 @font-face {
   font-family: "Argesta";
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   src: url("/wp-content/themes/thewave/assets/fonts/argestadisplay-regular-webfont.woff2") format("woff2");
   font-display: optional;
 }
@@ -287,7 +287,7 @@ template {
 @font-face {
   font-family: "Argesta";
   font-style: italic;
-  font-weight: normal;
+  font-weight: 400;
   src: url("/wp-content/themes/thewave/assets/fonts/argestadisplay-regularitalic-webfont.woff2") format("woff2");
   font-display: optional;
 }
@@ -499,7 +499,7 @@ h5,
 h6 {
   color: #414243;
   font-family: "Argesta", Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
-  font-weight: 500;
+  font-weight: 400;
   line-height: 1.2;
   margin: 0.6em 0 0.4em;
 }
@@ -519,6 +519,7 @@ h5.bigger,
 h6.bigger {
   font-size: 2.4em;
   font-style: italic;
+  font-weight: 300;
 }
 @media (min-width: 768px) {
   h1.bigger,
@@ -2084,7 +2085,7 @@ textarea:focus:-ms-input-placeholder {
 .genesis-nav-menu .menu-item a {
   color: #245054;
   display: inline-block;
-  font-family: "Wotfard", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  font-family: "Argesta", Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
   font-size: 18px;
   font-weight: 400;
   outline-offset: -1px;
@@ -2349,7 +2350,6 @@ textarea:focus:-ms-input-placeholder {
   .genesis-nav-menu > .highlight > a {
     background-color: #398086;
     color: #ffffff;
-    font-weight: 500;
     margin-left: 15px;
     padding-left: 20px;
     padding-right: 20px;

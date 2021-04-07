@@ -22,7 +22,7 @@
     a {
       color: brand-color('dark-green');
       display: inline-block;
-      font-family: $sans-serif;
+      font-family: $argesta, $serif;
       font-size: 18px;
       font-weight: 400;
       outline-offset: -1px;
@@ -321,7 +321,6 @@
     & > .highlight > a {
         background-color: brand-color('green');
         color: $white;
-        font-weight: 500;
         margin-left: 15px;
         padding-left: 20px;
         padding-right: 20px;
