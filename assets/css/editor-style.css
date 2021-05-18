@@ -370,7 +370,7 @@ figure {
 --------------------------------------------- */
 .wp-block-button__link {
   border: 2px solid #56AAA8;
-  border-radius: 0;
+  border-radius: 2px;
   font-family: "Wotfard", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   font-size: 20px;
   font-weight: 500;

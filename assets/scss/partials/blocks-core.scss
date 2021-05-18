@@ -5,7 +5,7 @@ $default: nth( nth( $brand_colors, 1 ), 1 ); // first color in $brand_colors arr
 
 .wp-block-button__link {
 	border: 2px solid brand-color( $default );
-	border-radius: 0;
+	border-radius: $border-radius;
     font-family: $sans-serif;
 	font-size: 20px;
 	font-weight: 500;
