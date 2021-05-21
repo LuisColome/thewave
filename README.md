@@ -2,7 +2,7 @@
 
 [![TheWave Genesis Child Theme v1.0.3 badge][changelog-badge]][changelog] [![Version v1.0.3 Badge][version-badge]][changelog]
 
-The Wave Genesis Child Theme
+The Wave Genesis Child Theme.
 
 ## Author:
 
