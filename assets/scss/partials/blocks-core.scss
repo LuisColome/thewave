@@ -38,7 +38,7 @@ $default: nth( nth( $brand_colors, 1 ), 1 ); // first color in $brand_colors arr
     .white & {
         background-color: $white;
         border-color: $white;
-        color: brand-color( 'green' );
+        color: $primary-color;
     }
 
     .is-style-outline > &:not(.has-text-color), // front-end
@@ -155,7 +155,7 @@ blockquote.wp-block-quote {
         margin: 0;
         padding: 4% 8%; 
         background-color: brand-color('grey');
-        border-left: 3px solid brand-color('medium-green');
+        border-left: 3px solid brand-color('blue');
 
         p{            
             color: $base-color;
@@ -297,7 +297,7 @@ img {
         &.dark-grey {
 
             .wp-block-column:last-child::before {
-                background-color: brand-color( 'dark-grey');
+                background-color: $border-color;
             }
         }
     }
@@ -358,15 +358,15 @@ img {
 	}
 
 	&.bb-green-1 {
-		border-bottom: 3px solid brand-color( 'light-green');
+		border-bottom: 3px solid brand-color( 'blue', 'lighten');
 	}
 
 	&.bb-green-2 {
-		border-bottom: 3px solid brand-color( 'medium-green');
+		border-bottom: 3px solid brand-color( 'blue');
 	}
 
 	&.bb-green-3 {
-		border-bottom: 3px solid brand-color( 'green');
+		border-bottom: 3px solid brand-color( 'blue', 'darken' );
 	}
 }
 

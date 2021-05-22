@@ -20,7 +20,7 @@
     }
 
     a {
-      color: brand-color('dark-green');
+      color: $base-color;
       display: inline-block;
       font-family: $argesta, $serif;
       font-size: 18px;
@@ -30,10 +30,9 @@
       padding-bottom: 8px;
       text-decoration: none;
 
-        // span {
-        //     border-bottom: 2px solid brand-color( 'dark-green' );
-        //     transition: opacity 0.15s ease-in-out;
-        // }
+        &:hover {
+            color: $primary-color;
+        }
 
         span {
             display: inline-block;
@@ -45,7 +44,7 @@
                 display: block;
                 width: 0;
                 height: 2px;
-                background: brand-color( 'green' );
+                background: $primary-color;
                 transition: width .3s;
                 margin-top: 5px;
             }
@@ -166,7 +165,7 @@
 .sub-menu-toggle:hover {
   background-color: transparent;
   border-width: 0;
-  color: brand-color( 'green' );;
+  color: $primary-color;
 }
 
 .sub-menu .sub-menu-toggle {
@@ -217,12 +216,12 @@
 .menu-toggle:focus,
 .menu-toggle.activated {
   background-color: transparent;
-  color: brand-color( 'green' );;
+  color: $primary-color;
   outline: none;
 }
 
 .menu-toggle.activated span {
-  background: brand-color( 'green' );;
+  background: $secondary-color;
 }
 
 /* Menu Toggle bars position and animation 
@@ -319,7 +318,7 @@
         }
 
     & > .highlight > a {
-        background-color: brand-color('green');
+        background-color: $primary-color;
         color: $white;
         border-radius: $border-radius;
         margin-left: 15px;
@@ -327,7 +326,8 @@
         padding-right: 20px;
 
         &:hover {
-            background-color: brand-color('green', 'darken');
+            background-color: brand-color( 'navy', 'lighten');
+            color: $white;
         }
 
         span::after {
@@ -367,14 +367,14 @@
         position: absolute;
         transition: opacity 0.4s ease-in-out;
         box-shadow: 0px 1px 6px -1px rgba($grey_9, .35);
-        background-color: brand-color( 'grey' );
+        background-color: $grey;
         z-index: 9;
 
         a {
             border-top: 0;
             padding-bottom: 10px;
             padding-top: 10px;
-            background-color: brand-color( 'grey' );
+            background-color: $grey;
         }
 
         .menu-item-has-children > a > span {

@@ -28,17 +28,18 @@ ul, ol {
 -------------------------------------------------------- */
 
 .bb-green-1 {
-    border-bottom: 3px solid brand-color( 'light-green');
+    border-bottom: 3px solid brand-color( 'blue', 'lighten');
 }
 
 .bb-green-2 {
-    border-bottom: 3px solid brand-color( 'medium-green');
+    border-bottom: 3px solid brand-color( 'blue');
 }
 
 .bb-green-3 {
-    border-bottom: 3px solid brand-color( 'green');
+    border-bottom: 3px solid brand-color( 'blue', 'darken' );
 }
 
 .bb-green-4 {
-    border-bottom: 3px solid brand-color( 'dark-green');
+    border-bottom: 3px solid brand-color( 'blue', 'darken' );
+
 }

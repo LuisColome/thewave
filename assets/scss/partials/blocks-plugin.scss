@@ -24,7 +24,7 @@
         background-color: $primary-color;
 
         &:hover {
-            color: $highlight;
+            background-color: brand-color( 'navy', 'lighten');
         }
     }
 }
@@ -37,7 +37,7 @@
 }
   
 .gb-block-post-grid .gb-post-grid-items h2 a:hover {
-    color: brand-color( 'green' );
+    color: $secondary-color;
 }
 
 @media only screen and (max-width: 510px) {
@@ -90,7 +90,7 @@
 
             .gb-testimonial-name {
                 margin-bottom: 10px;
-                color: brand-color( 'green' ) !important;
+                color: $primary-color !important;
 
             }
         }
@@ -104,7 +104,7 @@
 
 .gb-block-accordion {
     margin-bottom: 10px;
-    border-bottom: 2px solid brand-color( 'medium-green');
+    border-bottom: 2px solid $secondary-color;
 
     details {
     
@@ -117,13 +117,13 @@
             font-family: $argesta, $serif;
             @include font-sizes(18px, 20px, 20px);
             padding: 15px 45px 15px 10px;
-            background-color: brand-color( 'grey' );
+            background-color: $grey;
 
             strong {  // CSS hack to make the strong numbers bigger and green
                 
                 font-size: 140%;
                 margin-right: $block-margin;
-                color: brand-color('green');
+                color: $primary-color;
             }
         
             &::marker {
@@ -222,6 +222,6 @@
 
     .gb-block-post-grid-text {
         padding: $block-margin $wrap_edge;
-        background-color: brand-color('grey');
+        background-color: $grey;
     }
 } 

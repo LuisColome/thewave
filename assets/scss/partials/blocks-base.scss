@@ -27,7 +27,7 @@ textarea:focus,
 }
 
 a {
-    color: brand-color( 'green' );
+    color: $primary-color;
     text-decoration: underline;
     text-decoration-color: $grey-7;
     font-weight: 500;
@@ -146,16 +146,16 @@ h6 {
     }
 
     a {
-    color: $grey-9;
-    text-decoration: none;
+        color: $grey-9;
+        text-decoration: none;
 
-    &:hover {
-        color: brand-color( 'green' );
-    }
+        &:hover {
+            color: $primary-color;
+        }
     }
 
     &:focus {
-    outline: none;
+        outline: none;
     }
 }
 
