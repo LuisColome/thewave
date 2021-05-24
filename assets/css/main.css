@@ -278,6 +278,28 @@ template {
   src: url("/wp-content/themes/thewave/assets/fonts/argestatext-regularitalic-webfont.woff2") format("woff2");
   font-display: optional;
 }
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.fadefirst {
+  animation: fadeInUp 0.8s 0.5s both;
+}
+
+.fadesecond {
+  animation: fadeInUp 0.8s 0.8s both;
+}
+
+.fadethird {
+  animation: fadeInUp 0.8s 1.4s both;
+}
+
 /**
  * Brand Color
  * 
@@ -1351,6 +1373,13 @@ ul.white-links a:hover, ul.white-links a:focus {
 .entry-content .wp-block-group.schedule .list-schedule strong {
   font-size: 140%;
   margin-right: 3%;
+}
+
+.thewave-title,
+.thewave-subtitle {
+  margin-bottom: 0;
+  line-height: 0.8;
+  letter-spacing: 0.25em;
 }
 
 /**

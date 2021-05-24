@@ -1131,6 +1131,13 @@ ul.white-links a:hover, ul.white-links a:focus {
   margin-right: 3%;
 }
 
+.thewave-title,
+.thewave-subtitle {
+  margin-bottom: 0;
+  line-height: 0.8;
+  letter-spacing: 0.25em;
+}
+
 /* Post Summary
 ---------------------------------------------------------------------------------------------------- */
 .post-summary {
