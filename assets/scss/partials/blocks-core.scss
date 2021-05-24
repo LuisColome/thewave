@@ -49,8 +49,8 @@ $default: nth( nth( $brand_colors, 1 ), 1 ); // first color in $brand_colors arr
 
         &:hover,
         &:focus {
-            border: 2px solid brand-color( $default, 'darken' );
-			background-color: brand-color( $default, 'darken' );
+            border: 2px solid brand-color( $default );
+			background-color: brand-color( $default );
             color: $white;
         }
     }

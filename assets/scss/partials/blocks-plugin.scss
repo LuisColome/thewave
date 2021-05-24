@@ -24,7 +24,7 @@
         background-color: $primary-color;
 
         &:hover {
-            background-color: brand-color( 'navy', 'lighten');
+            background-color: brand-color( 'midnight', 'lighten');
         }
     }
 }
@@ -131,7 +131,7 @@
             }
         
             &:after{
-                content: url("../../assets/icons/utility/navigate-down-green.svg");
+                content: url("../../assets/icons/utility/navigate-down-midnight.svg");
                 position: absolute;
                 right: 2.4rem;
                 top: 45%;
@@ -148,6 +148,7 @@
 
             .gb-accordion-title {
                 background-color: $white;
+                color: $primary-color;
 
                 &::after {
                     transform: rotate(180deg) translateY(-50%);
@@ -165,6 +166,9 @@
     }
 }
 
+.entry-content .gb-block-accordion + .gb-block-accordion {
+    margin-top: -0.5em;
+}
 
 /** Genesis Blocks - Post and Page Grid
 --------------------------------------------------------------- */

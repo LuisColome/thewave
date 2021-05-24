@@ -10,17 +10,3 @@
     font-family: sans-serif;
   }
 }
-
-@mixin transition {
-  transition: all 0.2s ease-in-out;
-}
-
-%alt_link {
-  color: brand-color( 'green' );
-  font-weight: 400;
-
-  &:hover {
-    color: $grey_7;
-    text-decoration: none;
-  }
-}

@@ -136,11 +136,11 @@
 	}
 
 	a {
-		color:brand-color( 'green' );;
+		color: $highlight;
 		text-decoration: none;
 
 		&:hover {
-			color: brand-color( 'green', 'lighten' );
+			color: $grey_7;
 		}
 	}
 }
@@ -202,10 +202,10 @@
 	margin-bottom: 24px;
 
 	a {
-		color: brand-color( 'green' );
+		color: $primary-color;
 
 		&:hover {
-			color: brand-color( 'green', 'lighten' );
+			color: $grey_7;
 		}
 	}
 

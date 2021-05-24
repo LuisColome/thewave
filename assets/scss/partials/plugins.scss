@@ -15,7 +15,7 @@
   .gs-faq__question:focus,
   .gs-faq__question:hover {
     background: transparent;
-    color: brand-color( 'green' );;
+    color: $highlight;
   }
   
   .gs-faq__question::after {

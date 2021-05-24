@@ -16,23 +16,18 @@ $black: #000;
 
 // Brand Colors
 $brand_colors: (
-    'navy' : #191970,
+    'midnight' : #334e79,
     'blue': #91B5D0,
     'gold' : #F8C60D,
-    'new-grey' : #E3E4E0,
     'grey' : $grey_2,
-    'medium-green' : #56AAA8,
-    'green'	: #398086,
-    'light-green' : #A7D8D5,
-    'dark-green'	: #245054,
     'white' : $white,
     'dark-grey' : $grey_9,
 );
 @import "../modules/brand-color";
 
-$primary-color: brand-color('navy');
+$primary-color: brand-color('midnight');
 $secondary-color: brand-color('blue');
-$highlight: brand-color( 'blue', 'darken' );
+$highlight: brand-color( 'midnight', 'darken' );
 $grey: brand-color( 'grey' );
 $base-color: $grey_10;
 $border-color: $grey_4;

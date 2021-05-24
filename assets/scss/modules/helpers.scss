@@ -6,16 +6,6 @@
   transition: all 0.15s ease-in-out;
 }
 
-%alt_link {
-  color: brand-color( 'medium-green' );;
-  font-weight: 700;
-
-  &:hover {
-    color: $grey_7;
-    text-decoration: none;
-  }
-}
-
 /**
  * Button Reset
  *
