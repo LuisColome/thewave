@@ -155,39 +155,39 @@ function lcm_child_theme_setup() {
 	// -- Editor Color Palette
 	add_theme_support( 'editor-color-palette', array(
         array(
-			'name'  => __( 'Light Green', 'the_wave_child' ),
-			'slug'  => 'light-green',
-			'color'	=> '#A7D8D5',
+			'name'  => __( 'Midnight Blue', 'the_wave_child' ),
+			'slug'  => 'midnight',
+			'color'	=> '#334e79',
 		),	
 		array(
-			'name'  => __( 'Medium Green', 'the_wave_child' ),
-			'slug'  => 'medium-green',
-			'color'	=> '#56AAA8',
+			'name'  => __( 'Lighten blue', 'the_wave_child' ),
+			'slug'  => 'lighten-blue',
+			'color'	=> '#b5cddf',
 		),
 		array(
-			'name'  => __( 'Green', 'the_wave_child' ),
-			'slug'  => 'green',
-			'color'	=> '#398086',
+			'name'  => __( 'Blue', 'the_wave_child' ),
+			'slug'  => 'blue',
+			'color'	=> '#91B5D0',
 		),
 		array(
-			'name'  => __( 'Dark Green', 'the_wave_child' ),
-			'slug'  => 'dark-green',
-			'color'	=> '#245054',
+			'name'  => __( 'Darken Blue', 'the_wave_child' ),
+			'slug'  => 'darken-blue',
+			'color'	=> '#6d9dc1',
 		),
 		array(
-			'name'  => __( 'Grey', 'the_wave_child' ),
-			'slug'  => 'grey',
+			'name'  => __( 'Light Grey', 'the_wave_child' ),
+			'slug'  => 'light-grey',
 			'color' => '#f7f4f2',
-		),
-		array(
-			'name'  => __( 'White', 'the_wave_child' ),
-			'slug'  => 'white',
-			'color' => '#ffffff',
 		),
 		array(
 			'name'  => __( 'Dark Grey', 'the_wave_child' ),
 			'slug'  => 'dark-grey',
 			'color' => '#414243',
+		),
+		array(
+			'name'  => __( 'White', 'the_wave_child' ),
+			'slug'  => 'white',
+			'color' => '#ffffff',
 		),
 	) );
 

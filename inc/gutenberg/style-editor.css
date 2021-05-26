@@ -467,17 +467,29 @@ figure {
 .wp-block-button__link.has-midnight-background-color:hover, .wp-block-button__link.has-midnight-background-color:focus {
   background-color: #243755;
 }
+.wp-block-button__link.has-lighten-blue-color:hover, .wp-block-button__link.has-lighten-blue-color:focus {
+  color: #b5cddf;
+}
+.wp-block-button__link.has-lighten-blue-background-color:hover, .wp-block-button__link.has-lighten-blue-background-color:focus {
+  background-color: #91b5d0;
+}
 .wp-block-button__link.has-blue-color:hover, .wp-block-button__link.has-blue-color:focus {
   color: #91B5D0;
 }
 .wp-block-button__link.has-blue-background-color:hover, .wp-block-button__link.has-blue-background-color:focus {
   background-color: #6d9dc1;
 }
+.wp-block-button__link.has-darken-blue-color:hover, .wp-block-button__link.has-darken-blue-color:focus {
+  color: #6d9dc1;
+}
+.wp-block-button__link.has-darken-blue-background-color:hover, .wp-block-button__link.has-darken-blue-background-color:focus {
+  background-color: #4b85b0;
+}
 .wp-block-button__link.has-gold-color:hover, .wp-block-button__link.has-gold-color:focus {
-  color: #F8C60D;
+  color: #B79B70;
 }
 .wp-block-button__link.has-gold-background-color:hover, .wp-block-button__link.has-gold-background-color:focus {
-  background-color: #cca206;
+  background-color: #a28352;
 }
 .wp-block-button__link.has-grey-color:hover, .wp-block-button__link.has-grey-color:focus {
   color: #f7f4f2;
@@ -681,6 +693,14 @@ img.aligncenter {
   background-color: #334e79;
 }
 
+.has-lighten-blue-color {
+  color: #b5cddf;
+}
+
+.has-lighten-blue-background-color {
+  background-color: #b5cddf;
+}
+
 .has-blue-color {
   color: #91B5D0;
 }
@@ -689,12 +709,20 @@ img.aligncenter {
   background-color: #91B5D0;
 }
 
+.has-darken-blue-color {
+  color: #6d9dc1;
+}
+
+.has-darken-blue-background-color {
+  background-color: #6d9dc1;
+}
+
 .has-gold-color {
-  color: #F8C60D;
+  color: #B79B70;
 }
 
 .has-gold-background-color {
-  background-color: #F8C60D;
+  background-color: #B79B70;
 }
 
 .has-grey-color {
