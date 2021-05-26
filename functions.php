@@ -175,6 +175,11 @@ function lcm_child_theme_setup() {
 			'color'	=> '#6d9dc1',
 		),
 		array(
+			'name'  => __( 'Gold', 'the_wave_child' ),
+			'slug'  => 'gold',
+			'color'	=> '#B79B70',
+		),
+		array(
 			'name'  => __( 'Light Grey', 'the_wave_child' ),
 			'slug'  => 'light-grey',
 			'color' => '#f7f4f2',
