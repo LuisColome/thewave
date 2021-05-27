@@ -76,7 +76,7 @@
   @include transition;
 
   .shrink &{
-      max-width: calc(#{$logo-width} / 1.5);
+      max-width: calc(#{$logo-width} / 1.75);
   }
 }
 

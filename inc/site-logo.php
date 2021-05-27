@@ -14,7 +14,7 @@
  */
 function personal_genesis_seo_title( $titulo ) {
     
-    $titulo = '<p itemprop="headline" class="site-title"><a title="' . get_bloginfo('name') . '" href="' . get_bloginfo('url') . '"><img src="'. get_stylesheet_directory_uri() .'/images/logo-the-wave-midnight.png" alt=""></a></p>';
+    $titulo = '<p itemprop="headline" class="site-title"><a title="' . get_bloginfo('name') . '" href="' . get_bloginfo('url') . '"><img src="'. get_stylesheet_directory_uri() .'/images/logo-header.png" alt=""></a></p>';
         
     return $titulo;
 }

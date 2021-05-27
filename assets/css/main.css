@@ -2063,11 +2063,11 @@ textarea:focus:-ms-input-placeholder {
   position: relative;
   z-index: 9;
   padding: 0;
-  max-width: 200px;
+  max-width: 240px;
   transition: all 0.15s ease-in-out;
 }
 .shrink .title-area {
-  max-width: calc(200px / 1.5);
+  max-width: calc(240px / 1.75);
 }
 
 .site-title {
