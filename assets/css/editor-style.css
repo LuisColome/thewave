@@ -1107,6 +1107,8 @@ ul.white-links a:hover, ul.white-links a:focus {
 .entry-content .wp-block-group.schedule .list-schedule strong {
   font-size: 140%;
   margin-right: 3%;
+  display: inline-block;
+  min-width: 4.25ch;
 }
 
 .thewave-title,
@@ -1234,6 +1236,42 @@ ul.wp-block-gallery, ol.wp-block-gallery {
 }
 ul.wp-block-gallery li, ol.wp-block-gallery li {
   padding-bottom: 0;
+}
+
+ol {
+  list-style: none;
+  counter-reset: my-awesome-counter;
+  padding-left: 1.8rem;
+}
+ol li {
+  counter-increment: my-awesome-counter;
+  position: relative;
+  margin: 0 0 0.4rem 0;
+}
+ol li::before {
+  content: counter(my-awesome-counter);
+  position: absolute;
+  background: #91B5D0;
+  background: #c8ddec;
+  width: 1.3rem;
+  height: 1.3rem;
+  left: -1.8rem;
+  top: 0.15rem;
+  border-radius: 50%;
+  display: inline-block;
+  line-height: 1.8;
+  color: #252525;
+  font-size: 75%;
+  text-align: center;
+  margin-right: 0.5rem;
+}
+
+ol ol li::before {
+  background: #DE51FF;
+}
+
+ol ol ol li::before {
+  background: #EE9EFF;
 }
 
 /** Custom classes

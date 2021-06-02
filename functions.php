@@ -80,6 +80,10 @@ function lcm_child_theme_setup() {
 	include_once( get_stylesheet_directory() . '/inc/template-tags.php' );
 	include_once( get_stylesheet_directory() . '/inc/helper-functions.php' );
 
+    // Plugins
+	include_once( get_stylesheet_directory() . '/inc/acf.php' );
+
+
 	// Editor Styles
 	add_theme_support( 'editor-styles' );
 	add_editor_style( '/inc/gutenberg/style-editor.css' );

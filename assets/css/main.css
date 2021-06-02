@@ -1401,6 +1401,8 @@ ul.white-links a:hover, ul.white-links a:focus {
 .entry-content .wp-block-group.schedule .list-schedule strong {
   font-size: 140%;
   margin-right: 3%;
+  display: inline-block;
+  min-width: 4.25ch;
 }
 
 .thewave-title,
@@ -1408,6 +1410,87 @@ ul.white-links a:hover, ul.white-links a:focus {
   margin-bottom: 0;
   line-height: 0.8;
   letter-spacing: 0.25em;
+}
+
+/**
+ * Brand Color
+ * 
+ * Use: brand-color( 'blue', 'darken' );
+ * The color has to be declare in the variable $brandcolors in base.scss
+ *
+ */
+/**
+ * Button Reset
+ *
+ */
+/**
+ * Grid, Center Last
+ *
+ */
+/**
+ * Margin, No Edge
+ * Removes left margin from first item, right margin from last item
+ */
+/**
+ * Icon Position
+ *
+ */
+/**
+ * Block Cover
+ * Creates a block that covers the full width/height of parent div. Typically used on a :before pseudo element
+ */
+/**
+ * Placeholder Color
+ *
+ */
+/**
+ * Clearfix
+ *
+ */
+/**
+ * Font Sizes
+ *
+**/
+/**
+ * Columns
+ *
+ */
+.reasons__blocks {
+  display: grid;
+  gap: 32px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.reasons .reason {
+  background-color: #f7f4f2;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  padding: 2.2rem 1em;
+}
+.reasons .reason > * {
+  margin: 0;
+}
+.reasons .reason__subtitle {
+  font-size: 26px;
+  line-height: 1;
+}
+@media (min-width: 768px) {
+  .reasons .reason__subtitle {
+    font-size: 30px;
+  }
+}
+@media (min-width: 960px) {
+  .reasons .reason__subtitle {
+    font-size: 36px;
+  }
+}
+.reasons .reason__subtitle span {
+  font-size: 65px;
+  display: block;
+}
+.reasons .reason__text {
+  font-size: 140%;
+  line-height: 1.2;
 }
 
 /**
@@ -2560,6 +2643,39 @@ textarea:focus:-ms-input-placeholder {
 }
 .entry-content ul.wp-block-gallery li, .entry-content ol.wp-block-gallery li {
   padding-bottom: 0;
+}
+.entry-content ol {
+  list-style: none;
+  counter-reset: my-awesome-counter;
+  padding-left: 1.8rem;
+}
+.entry-content ol li {
+  counter-increment: my-awesome-counter;
+  position: relative;
+  margin: 0 0 0.4rem 0;
+}
+.entry-content ol li::before {
+  content: counter(my-awesome-counter);
+  position: absolute;
+  background: #91B5D0;
+  background: #c8ddec;
+  width: 1.3rem;
+  height: 1.3rem;
+  left: -1.8rem;
+  top: 0.15rem;
+  border-radius: 50%;
+  display: inline-block;
+  line-height: 1.8;
+  color: #252525;
+  font-size: 75%;
+  text-align: center;
+  margin-right: 0.5rem;
+}
+.entry-content ol ol li::before {
+  background: #DE51FF;
+}
+.entry-content ol ol ol li::before {
+  background: #EE9EFF;
 }
 .entry-content .bb-green-1 {
   border-bottom: 3px solid #b5cddf;

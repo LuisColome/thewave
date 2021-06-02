@@ -22,7 +22,42 @@ ul, ol {
 	}
 }
 
+ol {
+    list-style: none;
+    counter-reset: my-awesome-counter;
+    padding-left: 1.8rem;
 
+    li {
+        counter-increment: my-awesome-counter;
+        position: relative;
+        margin: 0 0 .4rem 0;
+
+        &::before {
+            content: counter(my-awesome-counter);
+            position: absolute;
+            background: #91B5D0;
+            background: #c8ddec;
+            width: 1.3rem;
+            height: 1.3rem;
+            left: -1.8rem;
+            top: .15rem;
+            border-radius: 50%;
+            display: inline-block;
+            line-height: 1.8;
+            color: $base-color;
+            font-size: 75%;
+            text-align: center;
+            margin-right: 0.5rem;
+          }
+      }
+  }
+  
+  ol ol li::before {
+    background: #DE51FF;
+  }
+  ol ol ol li::before {
+    background: #EE9EFF;
+  }
 
 /** Custom classes
 -------------------------------------------------------- */
