@@ -1054,6 +1054,11 @@ img.aligncenter {
   background-color: #f7f4f2;
 }
 
+@media (max-width: 600px) {
+  .membership-columns .gb-layout-column-wrap {
+    max-width: 300px !important;
+  }
+}
 /** Custom lists
 ----------------------------------------------------------------- */
 ul.check-list {

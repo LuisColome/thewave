@@ -228,4 +228,10 @@
         padding: $block-margin $wrap_edge;
         background-color: $grey;
     }
-} 
+}
+
+@include media('<=600px') {
+	.membership-columns .gb-layout-column-wrap {
+		max-width: 300px !important;
+	}
+}
