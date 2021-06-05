@@ -185,7 +185,7 @@ function lcm_child_theme_setup() {
 		),
 		array(
 			'name'  => __( 'Light Grey', 'the_wave_child' ),
-			'slug'  => 'light-grey',
+			'slug'  => 'grey',
 			'color' => '#f7f4f2',
 		),
 		array(
