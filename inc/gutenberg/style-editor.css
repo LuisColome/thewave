@@ -868,10 +868,8 @@ img.aligncenter {
   margin-bottom: 0;
 }
 
-/** The Wave Block Decorations
---------------------------------------------- */
 /* Media and Text (remove the padding for alignfull and alignwide)
---------------------------------------------- */
+--------------------------------------------------------------------- */
 .full-width-content .entry-content *.wp-block-media-text.alignwide, .full-width-content .entry-content *.wp-block-media-text.alignfull, .content-width .entry-content *.wp-block-media-text.alignwide, .content-width .entry-content *.wp-block-media-text.alignfull,
 .full-width-content .block-area *.wp-block-media-text.alignwide,
 .full-width-content .block-area *.wp-block-media-text.alignfull,
