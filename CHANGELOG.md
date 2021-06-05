@@ -7,8 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### [Unreleased]
 - transparent header on Home page.
 
+#### [1.0.5.3] - 2021-05-06
+#### Changed
+- Update screenshot
+
 #### [1.0.5.2] - 2021-05-06
-#### Added
+#### Changed
 - Fix light grey color in Gutenberg palette
 - Remove unused old css code.
 
