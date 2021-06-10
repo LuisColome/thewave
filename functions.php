@@ -236,3 +236,16 @@ function ea_template_hierarchy( $template ) {
 	return $template;
 }
 add_filter( 'template_include', 'ea_template_hierarchy' );
+
+/**
+ * Exclude Team CPT 
+ * 
+ */
+function lcm_exclude_team_from_permalinks_settings($args, $postType) {
+	if ($postType == 'team') {
+		$args['with_front'] = false;
+		$args['rewrite']['with_front'] = false;
+	}
+	return $args;
+} 
+add_filter('register_post_type_args', 'lcm_exclude_team_from_permalinks_settings', 100, 2);
