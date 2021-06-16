@@ -100,6 +100,18 @@ add_action( 'genesis_entry_content', 'featured_post_image', 8 );
 remove_action( 'genesis_entry_content', 'genesis_do_post_image', 8 );
 remove_action( 'genesis_post_content', 'genesis_do_post_image' );
 
+/**
+ * Remove post info on Team CTP.
+ *
+ * @author Luis Colomé
+ */
+function lcm_remove_info_from_on_team_cpt() {
+    if ( is_single() && 'team' == get_post_type() ) {
+        remove_action( 'genesis_entry_header', 'genesis_post_info', 12 );
+    }
+}
+add_action( 'genesis_before_header', 'lcm_remove_info_from_on_team_cpt' );
+
 
 /**
  * Disable customizer theme settings

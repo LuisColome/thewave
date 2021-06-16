@@ -5,7 +5,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html) (or at least I'll try to).
 
 ### [Unreleased]
-- transparent header on Home page.
+
+
+#### [1.0.5.5] - 2021-16-06
+#### Removed
+- Post info on Team single posts.
 
 #### [1.0.5.4] - 2021-10-06
 #### Add
