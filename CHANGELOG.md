@@ -6,7 +6,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### [Unreleased]
 
-#### [1.0.5.5] - 2021-16-06
+#### [1.0.5.7] - 2021-17-06
+#### Fix
+- The Wave schedule block spacing.
+
+#### [1.0.5.6] - 2021-17-06
 #### Fix
 - Media and Text block bottom spacing.
 

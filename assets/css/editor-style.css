@@ -845,6 +845,13 @@ img.aligncenter {
     padding: 8%;
   }
 }
+.full-width-content .entry-content *.wp-block-media-text.alignwide.wave-schedule, .full-width-content .entry-content *.wp-block-media-text.alignfull.wave-schedule, .content-width .entry-content *.wp-block-media-text.alignwide.wave-schedule, .content-width .entry-content *.wp-block-media-text.alignfull.wave-schedule,
+.full-width-content .block-area *.wp-block-media-text.alignwide.wave-schedule,
+.full-width-content .block-area *.wp-block-media-text.alignfull.wave-schedule,
+.content-width .block-area *.wp-block-media-text.alignwide.wave-schedule,
+.content-width .block-area *.wp-block-media-text.alignfull.wave-schedule {
+  margin-bottom: 0;
+}
 
 /** Contact Form 7
 ---------------------------------------------------------------------------- */
