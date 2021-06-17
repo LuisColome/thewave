@@ -424,9 +424,9 @@ img {
         &.wp-block-media-text.alignfull {
             padding: 0;
             margin-top: 0;
-            margin-bottom: 0;
+            margin-bottom: $block-margin;
 
-            @include media('<600px') {
+            @include media('>=600px') {
                 margin-bottom: $margin_4x;
 
                 .wp-block-media-text__content {
