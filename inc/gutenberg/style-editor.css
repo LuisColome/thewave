@@ -929,6 +929,12 @@ img.aligncenter {
   background-color: #42659d;
 }
 
+/* Kadence Blocks
+---------------------------------------------------------------------------- */
+.wp-block-kadence-infobox a .kt-infobox-textcontent {
+  font-weight: 400;
+}
+
 /* Genesis Blocks
 ---------------------------------------------------------------------------- */
 .gb-block-post-grid h2 a {
