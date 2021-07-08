@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### [Unreleased]
 
+#### [1.0.5.8] - 2021-08-07
+#### Fix
+- Add support for Kadence Blocks plugin.
+
 #### [1.0.5.7] - 2021-17-06
 #### Fix
 - The Wave schedule block spacing.
