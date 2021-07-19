@@ -121,6 +121,7 @@
   height: 100vh;
   background-color: $white;
   padding: 25vh calc(16px + 10vw) 0;
+  overflow-x: scroll;
 }
 
 .genesis-responsive-menu .genesis-nav-menu .menu-item:hover > .sub-menu {
@@ -261,7 +262,7 @@
 .nav-primary {
   width: 100%;
   .genesis-nav-menu {
-    max-width: 250px;
+    max-width: 345px;
     margin: 0 auto;
   }
 }

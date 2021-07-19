@@ -2303,6 +2303,7 @@ textarea:focus:-ms-input-placeholder {
   height: 100vh;
   background-color: #ffffff;
   padding: 25vh calc(16px + 10vw) 0;
+  overflow-x: scroll;
 }
 
 .genesis-responsive-menu .genesis-nav-menu .menu-item:hover > .sub-menu {
@@ -2437,7 +2438,7 @@ textarea:focus:-ms-input-placeholder {
   width: 100%;
 }
 .nav-primary .genesis-nav-menu {
-  max-width: 250px;
+  max-width: 345px;
   margin: 0 auto;
 }
 

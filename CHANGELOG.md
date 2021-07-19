@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### [Unreleased]
 
+#### [1.0.5.9] - 2021-08-07
+#### Fix
+- Fix mobile navigation width.
+
 #### [1.0.5.8] - 2021-08-07
 #### Fix
 - Add support for Kadence Blocks plugin.

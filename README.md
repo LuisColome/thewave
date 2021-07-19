@@ -1,6 +1,6 @@
 # TheWave Genesis Child Theme
 
-[![TheWave Genesis Child Theme v1.0.5.8 badge][changelog-badge]][changelog] [![Version v1.0.5.8 Badge][version-badge]][changelog]
+[![TheWave Genesis Child Theme v1.0.5.9 badge][changelog-badge]][changelog] [![Version v1.0.5.9 Badge][version-badge]][changelog]
 
 The Wave Genesis Child Theme.
 
@@ -36,5 +36,5 @@ Without these projects, this WordPress Genesis Child Theme wouldn't be here.
 
 
 [changelog]: ./CHANGELOG.md
-[changelog-badge]: https://img.shields.io/badge/changelog-TheWave%20Genesis%20Child%20Theme%20v1.0.5.8-orange
-[version-badge]: https://img.shields.io/badge/version-v1.0.5.8-blue
+[changelog-badge]: https://img.shields.io/badge/changelog-TheWave%20Genesis%20Child%20Theme%20v1.0.5.9-orange
+[version-badge]: https://img.shields.io/badge/version-v1.0.5.9-blue
