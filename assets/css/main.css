@@ -2245,11 +2245,17 @@ textarea:focus:-ms-input-placeholder {
 .genesis-nav-menu .sub-menu .current-menu-item > a:hover {
   text-decoration: none;
 }
-.genesis-nav-menu a:focus span::after,
-.genesis-nav-menu a:hover span::after,
-.genesis-nav-menu .current-menu-item > a span::after,
-.genesis-nav-menu .sub-menu .current-menu-item > a:focus span::after,
-.genesis-nav-menu .sub-menu .current-menu-item > a:hover span::after {
+.genesis-nav-menu a:focus > span::after,
+.genesis-nav-menu a:hover > span::after,
+.genesis-nav-menu .current-menu-item > a > span::after,
+.genesis-nav-menu .sub-menu .current-menu-item > a:focus > span::after,
+.genesis-nav-menu .sub-menu .current-menu-item > a:hover > span::after {
+  width: 100%;
+}
+.genesis-nav-menu .sub-menu .sub-menu .current-menu-item a > span:after {
+  width: 0;
+}
+.genesis-nav-menu .sub-menu .sub-menu .current-menu-item a:hover > span:after, .genesis-nav-menu .sub-menu .sub-menu .current-menu-item a:focus > span:after {
   width: 100%;
 }
 .genesis-nav-menu .menu-item:hover > .sub-menu {
