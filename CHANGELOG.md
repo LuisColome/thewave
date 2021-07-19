@@ -6,7 +6,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### [Unreleased]
 
-#### [1.0.5.9] - 2021-08-07
+#### [1.0.6] - 2021-19-07
+#### Fix
+- Fix overflox scroll on desktop nav.
+
+#### [1.0.5.9] - 2021-19-07
 #### Fix
 - Fix mobile navigation width.
 

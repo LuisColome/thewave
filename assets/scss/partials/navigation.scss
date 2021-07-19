@@ -121,7 +121,10 @@
   height: 100vh;
   background-color: $white;
   padding: 25vh calc(16px + 10vw) 0;
-  overflow-x: scroll;
+
+  @include media('<medium') {
+    overflow-x: scroll;
+  }
 }
 
 .genesis-responsive-menu .genesis-nav-menu .menu-item:hover > .sub-menu {
@@ -191,8 +194,8 @@
 	transition: .2s ease-in-out;
 	cursor: pointer;
 	background-color: transparent;
-  border: none;
-  border-radius: 0;;
+    border: none;
+    border-radius: 0;
 }
 
 .menu-toggle span {
@@ -205,8 +208,8 @@
 	opacity: 1;
 	left: 0;
 	transform: rotate(0deg);
-  transition: .30s ease-in-out;
-  transform-origin: left center;
+    transition: .30s ease-in-out;
+    transform-origin: left center;
 }
 
 /* 
