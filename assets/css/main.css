@@ -2723,7 +2723,7 @@ textarea:focus:-ms-input-placeholder {
 
 .entry-content > *,
 .block-area > * {
-  margin: 20px 0;
+  margin: 0 0 20px 0;
   max-width: 100%;
 }
 .entry-content > *:first-child,
