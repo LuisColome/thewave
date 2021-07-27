@@ -1156,9 +1156,9 @@ ul.white-links a:hover, ul.white-links a:focus {
 }
 /** The Wave schedule List
 ------------------------------------------------------------------- */
-@media (min-width: 601px) and (max-width: 768px) {
+@media (max-width: 768px) {
   .entry-content .wp-block-group.schedule {
-    padding-left: 0;
+    padding: 0 !important;
   }
 }
 .entry-content .wp-block-group.schedule .list-schedule {
@@ -1170,11 +1170,22 @@ ul.white-links a:hover, ul.white-links a:focus {
     padding-left: 0;
   }
 }
+.entry-content .wp-block-group.schedule .list-schedule li {
+  font-size: 16px;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: flex-start;
+  margin-bottom: 0.4rem;
+}
 .entry-content .wp-block-group.schedule .list-schedule strong {
-  font-size: 140%;
-  margin-right: 3%;
-  display: inline-block;
+  font-size: 24px;
+  margin: -3px 3% 0 0;
+  display: block;
   min-width: 4.25ch;
+  line-height: 1.2;
+}
+.entry-content .wp-block-media-text__content {
+  padding: 4% 0 4% 2%;
 }
 
 .thewave-title,

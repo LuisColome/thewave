@@ -51,28 +51,51 @@ ul {
 /** The Wave schedule List
 ------------------------------------------------------------------- */
 
-.entry-content .wp-block-group.schedule {
+.entry-content {
 
-    @include media('>small','<=tablet') {
-        padding-left: 0; //play with the paddiong on the group to give some space to the list.
-    }
-
-    .list-schedule {
-        list-style: none;
-        margin: 0 auto;
+    .wp-block-group.schedule {
 
         @include media('<=tablet') {
-            padding-left: 0; // No padding left on mobile to give space to the list.
+            padding: 0!important;
         }
 
-        strong {
-            font-size: 140%;
-            margin-right: 3%;
-            display: inline-block;
-            min-width: 4.25ch;
+        // @include media('>small','<=tablet') {
+        //     padding-left: 0; //play with the paddiong on the group to give some space to the list.
+        // }
+    
+        .list-schedule {
+            list-style: none;
+            margin: 0 auto;
+    
+            @include media('<=tablet') {
+                padding-left: 0; // No padding left on mobile to give space to the list.
+            }
+    
+            li {
+                font-size: 16px;
+                display: flex;
+                flex-flow: row nowrap;
+                align-items: flex-start;
+                margin-bottom: .4rem;
+            }
+    
+            strong {
+                font-size: 24px;
+                margin: -3px 3% 0 0;
+                display: block;
+                min-width: 4.25ch;
+                line-height: 1.2;
+            }
         }
     }
+
+
+    .wp-block-media-text__content {
+        padding: 4% 0 4% 2%;
+    }
 }
+
+
 
 .thewave-title,
 .thewave-subtitle {
