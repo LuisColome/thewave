@@ -10,7 +10,7 @@ Luis Colomé ( [@luiscolome](https://twitter.com/luiscolome) / [luiscolome.com](
 
 ## Summary
 
-Genesis Child theme for TheWave.com site. Uses SCSS and PrePros to compile it. Tested up to WordPress 5.7 and Genesis 3.3.3.
+Genesis Child theme for [TheWaveClinic.com](https://thewaveclinic.com/) site. Uses SCSS and PrePros to compile it. Tested up to WordPress 5.7 and Genesis 3.3.3.
 
 ## Usage
 
