@@ -90,8 +90,13 @@ ul {
     }
 
 
-    .wp-block-media-text__content {
-        padding: 4% 0 4% 2%;
+    .full-width-content & .schedule,
+    .content-width & .schedule,
+    .schedule {
+        
+        .wp-block-media-text__content {
+            padding: 4% 0 4% 2%;
+        }
     }
 }
 

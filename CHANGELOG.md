@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### [Unreleased]
 
+#### [1.0.8] - 2021-27-07
+#### Update
+- Bigger button rounded corners.
+
 #### [1.0.7] - 2021-27-07
 #### Fix
 - Schedule list styles.
