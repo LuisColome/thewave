@@ -1134,7 +1134,8 @@ ul.white-links a:hover, ul.white-links a:focus {
   min-width: 4.25ch;
   line-height: 1.2;
 }
-.entry-content .wp-block-media-text__content {
+.full-width-content .entry-content .schedule .wp-block-media-text__content, .content-width .entry-content .schedule .wp-block-media-text__content,
+.entry-content .schedule .wp-block-media-text__content {
   padding: 4% 0 4% 2%;
 }
 
