@@ -6,6 +6,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### [Unreleased]
 
+#### [1.0.8.1] - 2021-11-08
+#### Update
+- Site link on readme.
+#### Fix
+- Inner space on schedule media and text block on mobile.
+
 #### [1.0.8] - 2021-27-07
 #### Update
 - Bigger button rounded corners.
