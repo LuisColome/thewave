@@ -1146,8 +1146,8 @@ img.aligncenter {
 .content-width .block-area *.wp-block-media-text.alignfull.wave-schedule {
   margin-bottom: 0;
 }
-.entry-content *.wp-block-media-text .is-image-fill .wp-block-media-text__media,
-.block-area *.wp-block-media-text .is-image-fill .wp-block-media-text__media {
+.entry-content *.wp-block-media-text.is-image-fill .wp-block-media-text__media,
+.block-area *.wp-block-media-text.is-image-fill .wp-block-media-text__media {
   padding-bottom: 65%;
 }
 
