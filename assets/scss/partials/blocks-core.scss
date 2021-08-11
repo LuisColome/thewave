@@ -411,7 +411,7 @@ img {
 	}
 }
 
-/* Media and Text (remove the padding for alignfull and alignwide)
+/* Media and Text
 --------------------------------------------------------------------- */
 
 .entry-content *,
@@ -420,6 +420,7 @@ img {
 	.full-width-content &,
 	.content-width & {
 			
+        // remove the padding for alignfull and alignwide
         &.wp-block-media-text.alignwide,
         &.wp-block-media-text.alignfull {
             padding: 0;
@@ -436,6 +437,17 @@ img {
 
             &.wave-schedule {
                 margin-bottom: 0;
+            }
+        }
+    }
+
+    &.wp-block-media-text {
+     
+        .is-image-fill {
+
+            .wp-block-media-text__media {
+                // better aspect ration on mobile screen size.
+                padding-bottom: 65%;
             }
         }
     }

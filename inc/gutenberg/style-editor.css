@@ -868,7 +868,7 @@ img.aligncenter {
   margin-bottom: 0;
 }
 
-/* Media and Text (remove the padding for alignfull and alignwide)
+/* Media and Text
 --------------------------------------------------------------------- */
 .full-width-content .entry-content *.wp-block-media-text.alignwide, .full-width-content .entry-content *.wp-block-media-text.alignfull, .content-width .entry-content *.wp-block-media-text.alignwide, .content-width .entry-content *.wp-block-media-text.alignfull,
 .full-width-content .block-area *.wp-block-media-text.alignwide,
@@ -901,6 +901,10 @@ img.aligncenter {
 .content-width .block-area *.wp-block-media-text.alignwide.wave-schedule,
 .content-width .block-area *.wp-block-media-text.alignfull.wave-schedule {
   margin-bottom: 0;
+}
+.entry-content *.wp-block-media-text .is-image-fill .wp-block-media-text__media,
+.block-area *.wp-block-media-text .is-image-fill .wp-block-media-text__media {
+  padding-bottom: 65%;
 }
 
 /** Contact Form 7
