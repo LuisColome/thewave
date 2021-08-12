@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### [Unreleased]
 
+#### [1.0.8.2] - 2021-11-08
+#### Added
+- Kadence row block support on full width.
+
 #### [1.0.8.1] - 2021-11-08
 #### Update
 - Site link on readme.
