@@ -42,6 +42,17 @@
     }
 }
 
+.entry-content > *,
+.block-area > * {
+
+	.full-width-content &,
+	.content-width & {
+
+		&.wp-block-kadence-rowlayout.alignfull:not(.fixforgeneratepress) {
+            margin: 0;
+        }
+    }
+}
 /* Genesis Blocks
 ---------------------------------------------------------------------------- */
 
