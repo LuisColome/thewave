@@ -889,6 +889,12 @@ img.aligncenter {
   font-weight: 300;
 }
 
+.full-width-content .entry-content > *.wp-block-kadence-rowlayout.alignfull:not(.fixforgeneratepress), .content-width .entry-content > *.wp-block-kadence-rowlayout.alignfull:not(.fixforgeneratepress),
+.full-width-content .block-area > *.wp-block-kadence-rowlayout.alignfull:not(.fixforgeneratepress),
+.content-width .block-area > *.wp-block-kadence-rowlayout.alignfull:not(.fixforgeneratepress) {
+  margin: 0;
+}
+
 /* Genesis Blocks
 ---------------------------------------------------------------------------- */
 .gb-block-post-grid h2 a {
