@@ -12,7 +12,7 @@
 add_filter( 'genesis_pre_get_option_site_layout', '__genesis_return_full_width_content' );
 
 /**
- * Blog Archive Body Class
+ * Archive pages Body Class
  *
  */
 function ea_blog_archive_body_class( $classes ) {
