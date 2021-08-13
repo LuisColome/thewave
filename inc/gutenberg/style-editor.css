@@ -902,9 +902,31 @@ img.aligncenter {
 .content-width .block-area *.wp-block-media-text.alignfull.wave-schedule {
   margin-bottom: 0;
 }
-.entry-content *.wp-block-media-text.is-image-fill .wp-block-media-text__media,
-.block-area *.wp-block-media-text.is-image-fill .wp-block-media-text__media {
-  padding-bottom: 65%;
+@media (max-width: 840px) {
+  .full-width-content .entry-content *.wp-block-media-text.is-stacked-on-mobile, .content-width .entry-content *.wp-block-media-text.is-stacked-on-mobile,
+.full-width-content .block-area *.wp-block-media-text.is-stacked-on-mobile,
+.content-width .block-area *.wp-block-media-text.is-stacked-on-mobile {
+    grid-template-columns: 100% !important;
+  }
+  .full-width-content .entry-content *.wp-block-media-text.is-stacked-on-mobile .wp-block-media-text__media, .content-width .entry-content *.wp-block-media-text.is-stacked-on-mobile .wp-block-media-text__media,
+.full-width-content .block-area *.wp-block-media-text.is-stacked-on-mobile .wp-block-media-text__media,
+.content-width .block-area *.wp-block-media-text.is-stacked-on-mobile .wp-block-media-text__media {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  .full-width-content .entry-content *.wp-block-media-text.is-stacked-on-mobile .wp-block-media-text__content, .content-width .entry-content *.wp-block-media-text.is-stacked-on-mobile .wp-block-media-text__content,
+.full-width-content .block-area *.wp-block-media-text.is-stacked-on-mobile .wp-block-media-text__content,
+.content-width .block-area *.wp-block-media-text.is-stacked-on-mobile .wp-block-media-text__content {
+    grid-column: 1;
+    grid-row: 2;
+  }
+}
+@media (max-width: 840px) {
+  .full-width-content .entry-content *.wp-block-media-text.is-image-fill .wp-block-media-text__media, .content-width .entry-content *.wp-block-media-text.is-image-fill .wp-block-media-text__media,
+.full-width-content .block-area *.wp-block-media-text.is-image-fill .wp-block-media-text__media,
+.content-width .block-area *.wp-block-media-text.is-image-fill .wp-block-media-text__media {
+    padding-bottom: 65%;
+  }
 }
 
 /** Contact Form 7
